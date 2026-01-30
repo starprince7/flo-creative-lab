@@ -1,0 +1,38 @@
+[
+  {
+    "id": "flohkee",
+    "name": "Director Flohkee",
+    "role": "Founder",
+    "image": "/images/team/flohkee.jpg",
+    "bio": "Passionate about open-source and no-code solutions, I am a UI/UX designer with 17 years of industry experience, dedicated .",
+    "socialLinks": {
+      "twitter": "https://x.com/home",
+      "facebook": "https://www.facebook.com/staticmania",
+      "youtube": "https://youtu.be/ceJ82RaW9mM"
+    }
+  },
+  {
+    "id": "favour",
+    "name": "Favour Okon",
+    "role": "Co-Founder",
+    "image": "/images/team/flohkee-with-cam.jpg",
+    "bio": "Technology strategist and co-founder with a strong focus on digital transformation, innovation, and scaling tech-driven businesses.",
+    "socialLinks": {
+      "twitter": "https://x.com/home",
+      "facebook": "https://www.facebook.com/staticmania",
+      "youtube": "https://youtu.be/ceJ82RaW9mM"
+    }
+  },
+  {
+    "id": "courtney",
+    "name": "Courtney Wilson",
+    "role": "Web Engineer",
+    "image": "/images/home-ai/team/ai-team-3.png",
+    "bio": "Senior web engineer specializing in scalable and high-performance web applications, with expertise in modern JavaScript frameworks.",
+    "socialLinks": {
+      "twitter": "https://x.com/home",
+      "facebook": "https://www.facebook.com/staticmania",
+      "youtube": "https://youtu.be/ceJ82RaW9mM"
+    }
+  }
+]

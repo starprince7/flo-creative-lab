@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
+
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url('../public/fonts/Satoshi-Regular.woff2') format('woff2'),
+    url('../public/fonts/Satoshi-Regular.woff') format('woff'),
+    url('../public/fonts/Satoshi-Medium.woff') format('woff'),
+    url('../public/fonts/Satoshi-Medium.woff2') format('woff2'),
+    url('../public/fonts/Satoshi-Regular.ttf') format('truetype'),
+    url('../public/fonts/Satoshi-Light.woff') format('truetype');
+  font-family: 'Satoshi';
+  font-display: swap;
+}
+
+p {
+  div {
+    @apply text-inherit;
+  }
+}

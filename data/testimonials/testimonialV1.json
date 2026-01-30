@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "name": "Cindy Ibanez",
+    "role": "Founder of Product Hunt",
+    "image": "/images/avatar/review-1.png",
+    "feedback": "Working with was an absolute game-changer for our business. From the very first meeting, their team took the time to understand our traffic and customer unique needs and vision. They tailored every solution to fit our goals and consistently delivered exceptional results."
+  },
+  {
+    "id": 2,
+    "name": "Darrell Steward",
+    "role": "Founder of Product Hunt",
+    "image": "/images/avatar/review-2.png",
+    "feedback": "The team went above and beyond to deliver results that far exceeded our expectations. Their attention to detail, ability to adapt, and unwavering support made them a true partner in our success."
+  },
+  {
+    "id": 3,
+    "name": "Wade Warren",
+    "role": "General Manager at Lattice",
+    "image": "/images/avatar/review-3.png",
+    "feedback": "From the moment we began, the team’s commitment to understanding our business stood out. They offered insights and strategies that elevated our brand, and their execution was flawless. We’re thrilled with the partnership and look forward to working together again."
+  },
+  {
+    "id": 4,
+    "name": "Eleanor Pena",
+    "role": "Marketing Lead at Stripe",
+    "image": "/images/avatar/review-4.png",
+    "feedback": "This collaboration completely transformed how we approached our business challenges."
+  },
+  {
+    "id": 5,
+    "name": "Devon Lane",
+    "role": "CEO at Upwork",
+    "image": "/images/avatar/review-5.png",
+    "feedback": "Their dedication to excellence was evident in every interaction. Not only did they deliver exceptional results."
+  },
+  {
+    "id": 6,
+    "name": "Jane Cooper",
+    "role": "Head of Design at Figma",
+    "image": "/images/avatar/review-6.png",
+    "feedback": "Every detail was thoughtfully considered, and every challenge was met with a creative solution. This team doesn’t just deliver a product; they create experiences that resonate with both businesses and customers alike."
+  },
+  {
+    "id": 7,
+    "name": "Marvin McKinney",
+    "role": "Operations Director at Airbnb",
+    "image": "/images/avatar/review-7.png",
+    "feedback": "Collaborating with this team was an inspiring journey. Their understanding of our market and their ability to craft solutions that spoke directly to our audience were unmatched. We’re already seeing incredible results!"
+  },
+  {
+    "id": 8,
+    "name": "Kristin Watson",
+    "role": "Creative Director at Canva",
+    "image": "/images/avatar/review-8.png",
+    "feedback": "Their ability to seamlessly integrate with our team and culture made this partnership truly unique. The results were beyond what we imagined."
+  },
+  {
+    "id": 9,
+    "name": "Ralph Edwards",
+    "role": "Head of Product at Notion",
+    "image": "/images/avatar/review-9.png",
+    "feedback": "The level of professionalism and innovation they brought to our project was extraordinary. Every step of the process was clear and well-managed, and the final results left us speechless. Highly recommend this team!"
+  },
+  {
+    "id": 10,
+    "name": "Courtney Henry",
+    "role": "Chief Technology Officer at Spotify",
+    "image": "/images/avatar/review-10.png",
+    "feedback": "We were blown away by the level of care and attention to detail this team brought to the table. Their ability to balance creativity with practicality."
+  },
+  {
+    "id": 11,
+    "name": "Zaheed Sabur",
+    "role": "Google Enginner",
+    "image": "/images/avatar/review-11.png",
+    "feedback": "Every detail was thoughtfully considered, and every challenge was met with a creative solution. This team doesn’t just deliver a product."
+  }
+]

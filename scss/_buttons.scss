@@ -1,0 +1,115 @@
+.rv-button {
+  @apply relative overflow-hidden;
+  .rv-button-top,
+  .rv-button-bottom {
+    @apply block w-full min-w-[210px] px-[39px] py-[25px] transition duration-500 md:inline-block md:w-auto;
+    span {
+      @apply inline-block font-normal uppercase tracking-[1.12px] transition duration-500;
+    }
+  }
+  .rv-button-top {
+    @apply relative z-10;
+  }
+  .rv-button-bottom {
+    @apply absolute left-0 top-0 z-[9] h-full w-full translate-y-full;
+    span {
+      @apply rotate-12;
+    }
+  }
+  &:hover {
+    .rv-button-top {
+      @apply -translate-y-[101%];
+      span {
+        @apply -rotate-12;
+      }
+    }
+    .rv-button-bottom {
+      @apply translate-y-0;
+      span {
+        @apply rotate-0;
+      }
+    }
+  }
+  &-secondary {
+    .rv-button-top {
+      @apply z-10 border border-secondary bg-secondary dark:border-backgroundBody dark:bg-backgroundBody;
+      span {
+        @apply text-backgroundBody dark:text-secondary;
+      }
+    }
+    .rv-button-bottom {
+      @apply z-[9] border border-secondary bg-backgroundBody dark:border-colorText dark:bg-secondary;
+      span {
+        @apply text-secondary dark:text-backgroundBody;
+      }
+    }
+  }
+  &-secondary-v2 {
+    .rv-button-top {
+      @apply z-10 border border-[#edf0f51a] bg-secondary dark:border-secondary/10 dark:bg-backgroundBody;
+      span {
+        @apply font-normal text-backgroundBody dark:text-secondary;
+      }
+    }
+    .rv-button-bottom {
+      @apply z-[9] border border-secondary bg-backgroundBody dark:border-colorText dark:bg-secondary;
+      span {
+        @apply font-normal text-secondary dark:text-backgroundBody;
+      }
+    }
+  }
+  &-white {
+    .rv-button-top {
+      @apply z-10 border bg-backgroundBody dark:border-dark dark:bg-dark;
+      span {
+        @apply text-secondary dark:text-backgroundBody;
+      }
+    }
+    .rv-button-bottom {
+      @apply z-[9] border border-secondary bg-secondary dark:border-backgroundBody dark:bg-backgroundBody;
+      span {
+        @apply text-backgroundBody dark:text-secondary;
+      }
+    }
+  }
+  &-primary {
+    .rv-button-top {
+      @apply z-10 bg-primary;
+      span {
+        @apply text-secondary;
+      }
+    }
+    .rv-button-bottom {
+      @apply z-[9] border border-secondary bg-secondary;
+      span {
+        @apply text-backgroundBody;
+      }
+    }
+  }
+  &-primary2 {
+    .rv-button-top {
+      @apply z-10 border bg-backgroundBody dark:border-dark dark:bg-inherit;
+      span {
+        @apply text-secondary dark:text-backgroundBody;
+      }
+    }
+    .rv-button-bottom {
+      @apply z-[9] border border-primary bg-primary dark:mt-[0.98px];
+      span {
+        @apply text-secondary;
+      }
+    }
+  }
+  &.rv-button-sm {
+    .rv-button-top,
+    .rv-button-bottom {
+      @apply min-w-[127px] px-5 py-4 md:min-w-[150px] md:px-[30px] md:py-[19px];
+    }
+  }
+  &.rv-button-sm-v2 {
+    .rv-button-top,
+    .rv-button-bottom {
+      @apply min-w-[150px] px-5 py-4 md:min-w-[180px] md:px-[30px] md:py-[19px];
+    }
+  }
+}

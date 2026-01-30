@@ -1,0 +1,23 @@
+// Career  tab-------
+.tab-button {
+  @apply relative transition-all duration-[0.6s];
+
+  &.active {
+    @apply bg-primary dark:bg-primary;
+  }
+}
+
+.tab-content {
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    transform: translateY(15px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

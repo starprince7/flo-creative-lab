@@ -1,0 +1,74 @@
+[
+  {
+    "id": "team-member-01",
+    "image": "/images/home-ai/team/ai-team-1.png",
+    "title": "Henry",
+    "position": "Founder",
+    "description": "Enthusiasts of open-source and no-code tools, a professional UI/UX designer with 17 years of industry experience. Leading innovation in design systems and user-centered solutions.",
+    "skills": ["UI/UX Designer", "Product Designer", "Design System Architect"],
+    "tags": ["Dribbble", "Behance", "Adobe"],
+    "fbLink": "#",
+    "twitterLink": "#",
+    "youtubeLink": "#"
+  },
+  {
+    "id": "team-member-02",
+    "image": "/images/home-ai/team/ai-team-2.png",
+    "title": "Addison",
+    "position": "Founder",
+    "description": "I'm a visionary entrepreneur, crafting innovative tech solutions. StaticMania and KEEP Design System are my other breakthrough moves, focusing on scalable design solutions.",
+    "skills": ["Frontend Developer", "React Specialist", "System Designer"],
+    "tags": ["GitHub", "CodePen", "Dev.to"],
+    "fbLink": "#",
+    "twitterLink": "#",
+    "youtubeLink": "#"
+  },
+  {
+    "id": "team-member-03",
+    "image": "/images/home-ai/team/ai-team-3.png",
+    "title": "John Deo",
+    "position": "Founder",
+    "description": "Pioneer in AI-driven design solutions with 12 years of experience in product development. Specializing in creating intuitive user experiences for enterprise applications.",
+    "skills": ["Product Designer", "AI Specialist", "UX Researcher"],
+    "tags": ["Medium", "ProductHunt", "Artstation"],
+    "fbLink": "#",
+    "twitterLink": "#",
+    "youtubeLink": "#"
+  },
+  {
+    "id": "team-member-04",
+    "image": "/images/home-ai/team/ai-team-4.png",
+    "title": "John Duo",
+    "position": "Founder",
+    "description": "Full-stack developer turned design enthusiast, bridging the gap between development and design. Created multiple successful open-source design tools.",
+    "skills": ["Full-stack Developer", "UI Designer", "Open Source Contributor"],
+    "tags": ["GitLab", "Behance", "NPM"],
+    "fbLink": "#",
+    "twitterLink": "#",
+    "youtubeLink": "#"
+  },
+  {
+    "id": "team-member-05",
+    "image": "/images/home-ai/team/ai-team-5.png",
+    "title": "Zaks",
+    "position": "Founder",
+    "description": "Passionate about accessibility and inclusive design, with extensive experience in creating enterprise-level design systems and component libraries.",
+    "skills": ["Design Systems", "Accessibility Expert", "Frontend Architect"],
+    "tags": ["Dribbble", "Figma", "LinkedIn"],
+    "fbLink": "#",
+    "twitterLink": "#",
+    "youtubeLink": "#"
+  },
+  {
+    "id": "team-member-06",
+    "image": "/images/home-ai/team/ai-team-4.png",
+    "title": "John Duo",
+    "position": "Founder",
+    "description": "Innovation strategist specializing in emerging technologies and design thinking. Leading research in AI-powered design tools and automation.",
+    "skills": ["Innovation Strategist", "Design Lead", "Tech Consultant"],
+    "tags": ["ResearchGate", "Medium", "Behance"],
+    "fbLink": "#",
+    "twitterLink": "#",
+    "youtubeLink": "#"
+  }
+]

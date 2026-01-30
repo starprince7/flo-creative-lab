@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "Cindy Ibanez",
+    "role": "Founder of Product Hunt",
+    "image": "/images/avatar/review-1.png",
+    "feedback": "Working with them was an absolute game changer for our business. From the very first meeting, "
+  },
+  {
+    "id": 2,
+    "name": "James Peterson",
+    "role": "CEO of TechSphere",
+    "image": "/images/avatar/review-2.png",
+    "feedback": "Their professionalism and attention to detail were unmatched. The end product exceeded all !"
+  },
+  {
+    "id": 3,
+    "name": "Samantha Lee",
+    "role": "Marketing Director at BrandBoost",
+    "image": "/images/avatar/review-3.png",
+    "feedback": "The team brought our vision to life with such creativity and precision. The results were beyond impressive."
+  },
+  {
+    "id": 4,
+    "name": "Michael Tran",
+    "role": "Co-Founder of FinEdge",
+    "image": "/images/avatar/review-4.png",
+    "feedback": "They understood our needs perfectly and delivered a solution that improved our workflow and efficiency."
+  },
+  {
+    "id": 5,
+    "name": "Emily Carter",
+    "role": "UX Designer at InnovateNow",
+    "image": "/images/avatar/review-5.png",
+    "feedback": "Their innovative approach and dedication to quality truly set them apart. "
+  },
+  {
+    "id": 6,
+    "name": "Daniel Kim",
+    "role": "CTO of NextWave Solutions",
+    "image": "/images/avatar/review-6.png",
+    "feedback": "The collaboration was seamless, and the final product was nothing short of perfection. A experience!"
+  },
+  {
+    "id": 7,
+    "name": "Sophia Martinez",
+    "role": "Project Manager at AgileWorks",
+    "image": "/images/avatar/review-7.png",
+    "feedback": "They transformed our challenges into opportunities and delivered results that exceeded all expectations. "
+  }
+]

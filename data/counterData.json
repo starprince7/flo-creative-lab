@@ -1,0 +1,22 @@
+{
+  "CounterData": [
+    {
+      "id": 1,
+      "number": "2",
+      "rightIcon": "$B",
+      "text": "Total Revenue"
+    },
+    {
+      "id": 2,
+      "number": "15",
+      "rightIcon": "+",
+      "text": "Projects Successfully"
+    },
+    {
+      "id": 3,
+      "number": "15",
+      "rightIcon": "",
+      "text": "Awwwwards"
+    }
+  ]
+}

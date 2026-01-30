@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "avatar": "/images/avatar/review-1.png",
+    "name": "Wade Warren",
+    "position": "Product Designer",
+    "quote": "Sed rem perspiciatis unde omnis iste natus quae ab illo inventore veritatis et quasi.",
+    "date": "Feb 03, 2024",
+    "lightLogo": "/images/icons/testimonial-logo.png",
+    "darkLogo": "/images/icons/testimonial-dark-logo.png"
+  },
+  {
+    "id": 2,
+    "avatar": "/images/avatar/review-2.png",
+    "name": "Marvin McKinney",
+    "position": "Manager at Lattice",
+    "quote": "Sed rem perspiciatis unde omnis iste natus quae ab illo inventore veritatis et quasi.",
+    "date": "Feb 10, 2024",
+    "lightLogo": "/images/icons/testimonial-logo.png",
+    "darkLogo": "/images/icons/testimonial-dark-logo.png"
+  },
+  {
+    "id": 3,
+    "avatar": "/images/avatar/review-3.png",
+    "name": "Arlene McCoy",
+    "position": "General Manager at Lattice",
+    "quote": "Sed rem perspiciatis unde omnis iste natus quae ab illo inventore veritatis et quasi.",
+    "date": "Feb 17, 2024",
+    "lightLogo": "/images/icons/testimonial-logo.png",
+    "darkLogo": "/images/icons/testimonial-dark-logo.png"
+  },
+  {
+    "id": 4,
+    "avatar": "/images/avatar/review-4.png",
+    "name": "Eleanor Pena",
+    "position": "Software Engineer at TechCorp",
+    "quote": "Sed rem perspiciatis unde omnis iste natus quae ab illo inventore veritatis et quasi.",
+    "date": "Feb 24, 2024",
+    "lightLogo": "/images/icons/testimonial-logo.png",
+    "darkLogo": "/images/icons/testimonial-dark-logo.png"
+  },
+  {
+    "id": 5,
+    "avatar": "/images/avatar/review-5.png",
+    "name": "Theresa Webb",
+    "position": "UX Specialist at Designify",
+    "quote": "Sed rem perspiciatis unde omnis iste natus quae ab illo inventore veritatis et quasi.",
+    "date": "Mar 03, 2024",
+    "lightLogo": "/images/icons/testimonial-logo.png",
+    "darkLogo": "/images/icons/testimonial-dark-logo.png"
+  },
+  {
+    "id": 6,
+    "avatar": "/images/avatar/review-11.png",
+    "name": "Darlene Robertson",
+    "position": "Marketing Lead at InnovateHub",
+    "quote": "Sed rem perspiciatis unde omnis iste natus quae ab illo inventore veritatis et quasi.",
+    "date": "Mar 10, 2024",
+    "lightLogo": "/images/icons/testimonial-logo.png",
+    "darkLogo": "/images/icons/testimonial-dark-logo.png"
+  },
+  {
+    "id": 7,
+    "avatar": "/images/avatar/review-1.png",
+    "name": "Courtney Henry",
+    "position": "Data Scientist at InsightsPro",
+    "quote": "Sed rem perspiciatis unde omnis iste natus quae ab illo inventore veritatis et quasi.",
+    "date": "Mar 17, 2024",
+    "lightLogo": "/images/icons/testimonial-logo.png",
+    "darkLogo": "/images/icons/testimonial-dark-logo.png"
+  },
+  {
+    "id": 8,
+    "avatar": "/images/avatar/review-4.png",
+    "name": "Ronald Richards",
+    "position": "Project Manager at BuildMaster",
+    "quote": "Sed rem perspiciatis unde omnis iste natus quae ab illo inventore veritatis et quasi.",
+    "date": "Mar 24, 2024",
+    "lightLogo": "/images/icons/testimonial-logo.png",
+    "darkLogo": "/images/icons/testimonial-dark-logo.png"
+  }
+]

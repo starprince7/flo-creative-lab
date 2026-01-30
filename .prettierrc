@@ -1,0 +1,16 @@
+{
+  "singleQuote": true,
+  "tailwindConfig": "./tailwind.config.ts",
+  "trailingComma": "all",
+  "plugins": ["prettier-plugin-css-order", "prettier-plugin-tailwindcss"],
+  "semi": false,
+  "useTabs": false,
+  "bracketSpacing": true,
+  "bracketSameLine": true,
+  "endOfLine": "lf",
+  "quoteProps": "as-needed",
+  "arrowParens": "always",
+  "printWidth": 120,
+  "htmlWhitespaceSensitivity": "strict",
+  "singleAttributePerLine": false
+}

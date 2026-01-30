@@ -1,0 +1,74 @@
+[
+  {
+    "id": "team-member-01",
+    "image": "/images/home-ai/team/ai-team-1.png",
+    "title": "Henry",
+    "position": "Founder",
+    "description": "Enthusiasts of open-source and no-code tools, a professional UI/UX designer with 17 years of industry experience. Leading innovation in design systems and user-centered solutions.",
+    "skills": ["UI/UX Designer", "Product Designer", "Design System Architect"],
+    "tags": ["Dribbble", "Behance", "Adobe"],
+    "fbLink": "#",
+    "twitterLink": "#",
+    "youtubeLink": "#"
+  },
+  {
+    "id": "team-member-02",
+    "image": "/images/home-ai/team/ai-team-2.png",
+    "title": "Addison",
+    "position": "Founder",
+    "description": "Expert in motion design and branding. Addison brings a decade of experience transforming digital identities through creative storytelling.",
+    "skills": ["Motion Design", "Brand Identity", "Creative Strategy"],
+    "tags": ["Instagram", "Vimeo", "After Effects"],
+    "fbLink": "#",
+    "twitterLink": "#",
+    "youtubeLink": "#"
+  },
+  {
+    "id": "team-member-03",
+    "image": "/images/team/team-2.png",
+    "title": "David Kim",
+    "position": "Founder",
+    "description": "David is a full-stack developer and startup advisor. Known for rapid prototyping and building scalable SaaS platforms.",
+    "skills": ["Full-stack Dev", "Tech Strategy", "Agile Management"],
+    "tags": ["GitHub", "Stack Overflow", "Notion"],
+    "fbLink": "#",
+    "twitterLink": "#",
+    "youtubeLink": "#"
+  },
+  {
+    "id": "team-member-04",
+    "image": "/images/home-ai/team/ai-team-4.png",
+    "title": "John Carter",
+    "position": "Founder",
+    "description": "Specialist in business development and digital marketing. John helps brands scale with a performance-first approach.",
+    "skills": ["Growth Hacking", "SEO/SEM", "B2B Marketing"],
+    "tags": ["LinkedIn", "HubSpot", "Google Ads"],
+    "fbLink": "#",
+    "twitterLink": "#",
+    "youtubeLink": "#"
+  },
+  {
+    "id": "team-member-05",
+    "image": "/images/team/team-3.png",
+    "title": "Emily",
+    "position": "Founder",
+    "description": "Emily is a creative technologist, blending art and code to create immersive experiences across web and mobile.",
+    "skills": ["Creative Coding", "WebGL", "Generative Art"],
+    "tags": ["CodePen", "Figma", "Blender"],
+    "fbLink": "#",
+    "twitterLink": "#",
+    "youtubeLink": "#"
+  },
+  {
+    "id": "team-member-06",
+    "image": "/images/team/team-4.png",
+    "title": "Thompson",
+    "position": "Founder",
+    "description": "Thompson is a data visualization expert and analytics engineer who tells stories through numbers and interactive charts.",
+    "skills": ["Data Viz", "D3.js", "Analytics"],
+    "tags": ["Tableau", "Power BI", "Python"],
+    "fbLink": "#",
+    "twitterLink": "#",
+    "youtubeLink": "#"
+  }
+]

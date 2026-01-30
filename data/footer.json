@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Company",
+    "links": [
+      {
+        "href": "/about",
+        "label": "About"
+      }
+    ]
+  },
+  {
+    "title": "Important Link",
+    "links": [
+      {
+        "href": "/team",
+        "label": "Team"
+      }
+    ]
+  }
+]

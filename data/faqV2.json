@@ -1,0 +1,38 @@
+[
+  [
+    {
+      "id": 1,
+      "question": "What does it cost to work with you?",
+      "answer": "If you need to exchange a product, please contact us within 14 days of receiving your order. We will determine the best course of action and guide you through the exchange process."
+    },
+    {
+      "id": 2,
+      "question": "What's your return policy?",
+      "answer": "If you need to exchange a product, please contact us within 14 days of receiving your order. We will determine the best course of action and guide you through the exchange process."
+    }
+  ],
+  [
+    {
+      "id": 3,
+      "question": "How do I make a warranty claim?",
+      "answer": "If you need to exchange a product, please contact us within 14 days of receiving your order. We will determine the best course of action and guide you through the exchange process."
+    },
+    {
+      "id": 4,
+      "question": "Do I have to pay customs fees or duty on my package?",
+      "answer": "If you need to exchange a product, please contact us within 14 days of receiving your order. We will determine the best course of action and guide you through the exchange process."
+    }
+  ],
+  [
+    {
+      "id": 5,
+      "question": "Where can I change or cancel my order?",
+      "answer": "If you need to exchange a product, please contact us within 14 days of receiving your order. We will determine the best course of action and guide you through the exchange process."
+    },
+    {
+      "id": 6,
+      "question": "How do I track my shipment?",
+      "answer": "If you need to exchange a product, please contact us within 14 days of receiving your order. We will determine the best course of action and guide you through the exchange process."
+    }
+  ]
+]
