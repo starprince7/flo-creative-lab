@@ -23,7 +23,7 @@ const FaqV2: FC<PropsType> = ({ titleChange = false }) => {
             headingTitle="Asked Us"
             titleChange={titleChange}
             italicTitle="People"
-            description="When detailing testimonials it's important to include key elements that provide context and authenticity"
+            description="Got questions about our video editing and post production services? Here are answers to the most common inquiries."
           />
         </div>
 

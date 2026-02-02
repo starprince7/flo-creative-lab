@@ -9,7 +9,47 @@ interface WorkType {
   [key: string]: any
 }
 
-const ourWork: WorkType[] = getMarkDownData('data/flim-making/project')
+interface VideoType {
+  id: string
+  title: string
+  url: string
+}
+
+const youtubeVideos: VideoType[] = [
+  {
+    id: 'QMD9oUuRs-E',
+    title: 'Flavour - Her Excellency (Nwunye Odogwu)',
+    url: 'https://www.youtube.com/embed/QMD9oUuRs-E',
+  },
+  {
+    id: 'xUN6moJ8cSk',
+    title: 'Ms Banks ft. Efosa - SILHOUETTE',
+    url: 'https://www.youtube.com/embed/xUN6moJ8cSk',
+  },
+  {
+    id: 'vQujzvga9HU',
+    title: "D'Banj - Since '04",
+    url: 'https://www.youtube.com/embed/vQujzvga9HU',
+  },
+  {
+    id: 'ae_GdPXYvzw',
+    title: 'Qing Madi, Chlöe - Vision (Remix)',
+    url: 'https://www.youtube.com/embed/ae_GdPXYvzw',
+  },
+  {
+    id: 'AzCfHLpx16Q',
+    title: 'Iyanya & Fido - Sorry',
+    url: 'https://www.youtube.com/embed/AzCfHLpx16Q',
+  },
+  {
+    // id: '1oQvc7Pc0jg',
+    // title: 'Barry Jhay - See Me See God',
+    // url: 'https://www.youtube.com/embed/1oQvc7Pc0jg',
+    id: 'TIzz8FuSjN4',
+    title: 'Barry Jhay - See Me See God (Visualizer)',
+    url: 'https://www.youtube.com/embed/TIzz8FuSjN4',
+  },
+]
 
 const OurWorkShowcase = () => {
   return (
@@ -21,8 +61,8 @@ const OurWorkShowcase = () => {
           </RevealWrapper>
           <TextAppearAnimation>
             <h2 className="text-appear mb-3">
-              Stories that resonate, <br />
-              productions
+              Music, <br />
+              Videos
               <i className="font-instrument"> that inspire</i>
             </h2>
           </TextAppearAnimation>
@@ -30,38 +70,34 @@ const OurWorkShowcase = () => {
             <p className="text-appear">A legacy of Award-Winning productions</p>
           </TextAppearAnimation>
         </div>
-        <div className="mb-[60px] grid grid-cols-12 items-center justify-items-center gap-[30px] gap-y-10 md:items-start">
-          {ourWork.map((item) => (
-            <RevealWrapper
-              key={item.slug}
-              className="underline-hover-effect group col-span-12 border px-3.5 pb-7 pt-3.5 dark:border-dark md:col-span-6 md:px-5 md:pt-5 last:md:col-span-12">
-              <Link href={`/flim-making/project/${item.slug}`}>
-                <figure className="overflow-hidden">
-                  <img
-                    src={item?.image}
-                    className="h-full w-full transition-all duration-500 group-hover:rotate-3 group-hover:scale-125"
-                    alt={item?.title}
-                  />
-                </figure>
-              </Link>
-              <div className="mb-2.5 mt-[26px]">
-                <p className="text-[13px] font-normal uppercase leading-[14.4px] tracking-[0.96px] text-secondary dark:text-white">
-                  {item?.date}, {item?.year}
-                </p>
+
+        {/* Projects Grid */}
+
+        {/* Videos Grid */}
+        <div className="mb-[60px] grid grid-cols-1 gap-[30px] md:grid-cols-2 lg:grid-cols-3">
+          {youtubeVideos.map((video) => (
+            <RevealWrapper key={video.id} className="group border px-3.5 pb-7 pt-3.5 dark:border-dark md:px-5 md:pt-5">
+              <div className="aspect-video w-full overflow-hidden">
+                <iframe
+                  src={video.url}
+                  title={video.title}
+                  className="h-full w-full"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
               </div>
-              <Link href={`/flim-making/project/${item.slug}`}>
-                <div className="blog-title">
-                  <h3 className="text-3xl font-normal lg:text-[42px] lg:leading-[1.2] lg:tracking-[-1.68px] xl:text-[50px]">
-                    {item?.title}
-                  </h3>
-                </div>
-              </Link>
+              <div className="mt-5">
+                <h3 className="text-xl font-normal leading-tight text-secondary dark:text-white lg:text-2xl">
+                  {video.title}
+                </h3>
+              </div>
             </RevealWrapper>
           ))}
         </div>
+
         <RevealWrapper as="ul" className="flex justify-center">
           <li className="mx-auto block max-md:w-full md:ml-auto md:inline-block md:w-auto">
-            <Link href="/design-agency" className="rv-button rv-button-secondary block text-center md:inline-block">
+            <Link href="/about" className="rv-button rv-button-secondary block text-center md:inline-block">
               <div className="rv-button-top">
                 <span>See Project</span>
               </div>

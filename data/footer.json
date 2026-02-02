@@ -9,11 +9,19 @@
     ]
   },
   {
-    "title": "Important Link",
+    "title": "Services",
     "links": [
       {
-        "href": "/team",
-        "label": "Team"
+        "href": "/flim-making/services/music-videos",
+        "label": "Music Videos"
+      },
+      {
+        "href": "/flim-making/services/commercials",
+        "label": "Commercials"
+      },
+      {
+        "href": "/contact",
+        "label": "Contact"
       }
     ]
   }

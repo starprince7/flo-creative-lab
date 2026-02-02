@@ -2,37 +2,37 @@
   [
     {
       "id": 1,
-      "question": "What does it cost to work with you?",
-      "answer": "If you need to exchange a product, please contact us within 14 days of receiving your order. We will determine the best course of action and guide you through the exchange process."
+      "question": "What's included in your editing services?",
+      "answer": "Our editing services include footage assembly, color grading, sound design, motion graphics, and VFX. We work with you from rough cut to final delivery, ensuring every frame meets our cinematic standards."
     },
     {
       "id": 2,
-      "question": "What's your return policy?",
-      "answer": "If you need to exchange a product, please contact us within 14 days of receiving your order. We will determine the best course of action and guide you through the exchange process."
+      "question": "How long does a typical project take?",
+      "answer": "Turnaround depends on project complexity. Music videos typically take 2-4 weeks, while commercials may require 1-3 weeks. We always discuss timelines upfront and can accommodate rush projects when needed."
     }
   ],
   [
     {
       "id": 3,
-      "question": "How do I make a warranty claim?",
-      "answer": "If you need to exchange a product, please contact us within 14 days of receiving your order. We will determine the best course of action and guide you through the exchange process."
+      "question": "Do you handle VFX and motion graphics?",
+      "answer": "Absolutely. Our team specializes in visual effects, compositing, motion graphics, and stylized treatments. From subtle enhancements to complex VFX sequences, we bring creative visions to life."
     },
     {
       "id": 4,
-      "question": "Do I have to pay customs fees or duty on my package?",
-      "answer": "If you need to exchange a product, please contact us within 14 days of receiving your order. We will determine the best course of action and guide you through the exchange process."
+      "question": "What formats do you deliver in?",
+      "answer": "We deliver in all standard formats optimized for your distribution channels—YouTube, streaming platforms, broadcast, social media, and theatrical release. We ensure your content looks stunning everywhere."
     }
   ],
   [
     {
       "id": 5,
-      "question": "Where can I change or cancel my order?",
-      "answer": "If you need to exchange a product, please contact us within 14 days of receiving your order. We will determine the best course of action and guide you through the exchange process."
+      "question": "How do revisions work?",
+      "answer": "We include revision rounds in every project to ensure you're completely satisfied. You'll receive preview cuts for feedback, and we refine until the final product exceeds your expectations."
     },
     {
       "id": 6,
-      "question": "How do I track my shipment?",
-      "answer": "If you need to exchange a product, please contact us within 14 days of receiving your order. We will determine the best course of action and guide you through the exchange process."
+      "question": "Can you work with footage we've already shot?",
+      "answer": "Yes! We regularly work with existing footage from various sources. Whether you have raw files from a shoot or archived material, we can transform it into polished, professional content."
     }
   ]
 ]

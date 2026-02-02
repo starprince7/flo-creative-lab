@@ -26,7 +26,7 @@ const AboutV13 = () => {
           </RevealWrapper>
           <RevealWrapper as="ul" className="mt-7 justify-self-center max-md:w-full md:mt-14">
             <li className="mx-auto block w-full text-center md:inline-block md:w-auto">
-              <Link href="/team" className="rv-button rv-button-white block md:inline-block">
+              <Link href="/about" className="rv-button rv-button-white block md:inline-block">
                 <div className="rv-button-top">
                   <span>Learn More About Us</span>
                 </div>

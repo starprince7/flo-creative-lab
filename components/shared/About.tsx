@@ -45,14 +45,8 @@ const About = ({ marquee = false }: AboutProps) => {
         <div className="flex flex-col items-center justify-center lg:items-stretch lg:justify-normal">
           <CircleTextAnimation />
           <h3 className="mx-auto mt-[34px]" ref={revealRef}>
-            We're a post production agency that partners <br className="hidden sm:block" /> with creators who refuse to
-            settle for ordinary. Our team of visionary filmmakers and VFX artists brings decades of combined experience
-            across feature films, commercials, music videos, and branded content.
-            <br />
-            <br />
-            We provide customized solutions for <br className="hidden sm:block" />
-            enhancing your existing site or building <br className="hidden sm:block" />a brand-new digital platform from
-            the ground up
+            Driven by a passion for transforming raw footage into refined, cinematic visuals, I work closely with
+            artists and brands to deliver edits that feel intentional, polished, and aligned with the story being told.
           </h3>
         </div>
       </div>

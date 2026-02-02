@@ -20,11 +20,16 @@ const ServiceDetails = async ({ params }: { params: Promise<{ slug: string }> })
   const slug = (await params).slug
   const service = getMarkDownContent('data/flim-making/services/', slug)
   const postServices = service.data
+  const plainService = {
+    content: service.content,
+    data: service.data,
+    excerpt: service.excerpt,
+  }
 
   return (
     <LayoutOne>
       <ServicesHero title={postServices?.title} description={postServices?.description} scale />
-      <ServiceContent service={service} />
+      <ServiceContent service={plainService} />
       <WhyChooseUsV6 />
       <FaqV2 titleChange />
       <CTA headingClass="xl:text-[88px]" buttonText="Start Your Film Project">

@@ -35,16 +35,16 @@ const menuItems: MenuItemProps[] = [
     // ],
   },
   {
-    title: 'About',
-    url: '/about',
+    title: 'Music Videos',
+    url: '/flim-making/services/music-videos',
     // items: [
     //   { title: 'About', url: '/about' },
     //   { title: 'About 02', url: '/about-02' },
     // ],
   },
   {
-    title: 'Services',
-    url: '/services',
+    title: 'Commercials',
+    url: '/flim-making/services/commercials',
     items: [
       // { title: 'Services', url: '/services' },
       // { title: 'Services Details', url: '/services/media' },
@@ -60,8 +60,8 @@ const menuItems: MenuItemProps[] = [
   //   ],
   // },
   {
-    title: 'Projects',
-    url: '/digital-agency/project',
+    title: 'About',
+    url: '/about',
     items: [
       // { title: 'Design Agency', url: '/design-agency' },
       // { title: 'Digital Agency', url: '/digital-agency/project' },
@@ -69,6 +69,10 @@ const menuItems: MenuItemProps[] = [
       // { title: 'Project Details', url: '/design-agency/project-nexus' },
       // { title: 'Project Details 02', url: '/digital-agency/project/project-nexus' },
     ],
+  },
+  {
+    title: 'Contact',
+    url: '/contact',
   },
 ]
 

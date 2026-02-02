@@ -39,13 +39,13 @@ const HeroV14 = () => {
           <i className="font-instrument text-inherit">experiences</i>
         </h1>
         <p className="max-w-3xl text-backgroundBody/70">
-          From award-winning films to high-end commercials, Rivor blends artistry and technology to bring your vision to
-          life.
+          From polished music videos to high-end TV commercials, FloCreativeLab blends artistry and precision to bring
+          your vision to life.
         </p>
         {/* Primary CTA Button */}
         <ul className="mt-7 flex list-none justify-start lg:mt-14">
           <li className="block w-full text-center md:inline-block md:w-auto">
-            <Link href="/design-agency" className="rv-button rv-button-primary block md:inline-block">
+            <Link href="/about" className="rv-button rv-button-primary block md:inline-block">
               <div className="rv-button-top">
                 <span>Explore Our Work</span>
               </div>

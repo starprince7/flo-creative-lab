@@ -8,8 +8,10 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react'
 
+import { HorizontalMenu } from '@/components/navbarCompo/horizontal-menu'
 import { SocialIcons } from '@/components/navbarCompo/social-icons'
 import { MenuList } from '../navbarCompo/menu-list'
+import LogoIcon from './LogoIcon'
 
 export default function Navbar() {
   const pathname = usePathname()
@@ -287,10 +289,10 @@ export default function Navbar() {
         </div>
         <nav
           className={`fixed z-[1000] w-full px-5 pt-1 transition duration-300 ease-linear will-change-transform sm:px-8 sm:pt-5 ${isVisible ? 'translate-y-0' : '-translate-y-full'}`}>
-          <div className="flex justify-between">
+          <div className="flex items-center justify-between">
             <Link href="/" className="relative z-10">
               <h6 className="mb-3 text-backgroundBody max-md:leading-none">
-                FCL <br className="hidden md:block" />
+                {/* FCL <br className="hidden md:block" /> */}
                 {/* <i className="font-instrument text-inherit">FCL </i> */}
               </h6>
               {/* <Image
@@ -300,17 +302,19 @@ export default function Navbar() {
                 width={136}
                 height={68}
                 priority
-              />
+              /> */}
               <Image
-                className="hidden max-h-[68px] w-auto dark:inline-block"
+                className="hidden max-h-[100px] w-[136px] sm:w-auto dark:inline-block"
                 src={logoDark}
                 alt="logo"
                 width={136}
-                height={68}
+                height={168}
                 priority
-              /> */}
+              />
+              {/* <LogoIcon /> */}
             </Link>
-            <div className="flex items-center">
+            <HorizontalMenu />
+            <div className="flex items-center lg:hidden">
               <button
                 ref={openBtnRef}
                 onClick={openMenu}
@@ -343,7 +347,7 @@ export default function Navbar() {
         <div className="menu-footer fixed bottom-0 w-full border-t border-white border-opacity-10 max-lg:hidden lg:block">
           <div className="menu-footer-content mx-auto flex max-w-[300px] flex-col justify-between py-8 sm:max-w-[400px] md:max-w-[600px] md:flex-row lg:max-w-[900px] xl:max-w-[1130px]">
             <p className="mb-4 w-full text-sm text-white md:mb-0 md:w-auto">
-              2261 Market Street #5039 San Francisco, CA 94114
+              Lagos, Nigeria
             </p>
             <SocialIcons />
           </div>

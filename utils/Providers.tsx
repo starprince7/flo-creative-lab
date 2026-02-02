@@ -16,7 +16,7 @@ export function ThemeModeProvider({ children, ...props }: Readonly<ThemeProvider
   if (!mount) return null
 
   return (
-    <NextThemesProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange {...props}>
+    <NextThemesProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange {...props}>
       {children}
     </NextThemesProvider>
   )

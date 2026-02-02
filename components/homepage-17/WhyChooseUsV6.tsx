@@ -9,13 +9,13 @@ const WhyChooseUsV6 = () => {
         <div className="mb-16 flex flex-col items-start justify-center gap-x-10 gap-y-4 md:flex-row lg:mb-24 lg:justify-between">
           <div className="md:w-[60%] md:self-start">
             <RevealWrapper className="rv-badge mb-2">
-              <span className="rv-badge-text">Why Choose Rivor</span>
+              <span className="rv-badge-text">Why Choose FloCreativeLab</span>
             </RevealWrapper>
             <TextAppearAnimation>
               <h2 className="text-appear lg:leading-[1.1]">
-                Smart, scalable &amp;
-                <i className="font-instrument"> secure </i>
-                <i className="font-instrument"> solutions </i>
+                Precision, artistry &amp;
+                <i className="font-instrument"> cinematic </i>
+                <i className="font-instrument"> excellence </i>
               </h2>
             </TextAppearAnimation>
           </div>
@@ -23,7 +23,7 @@ const WhyChooseUsV6 = () => {
           <div className="w-full md:w-[40%] md:max-w-72 md:self-end lg:max-w-[470px]">
             <TextAppearAnimation>
               <p className="text-appear max-w-lg md:place-self-end md:text-right">
-                We provide smart, secure solutions tailored to your business for smooth digital transformation.
+                We deliver world-class post production tailored to your creative vision for unforgettable results.
               </p>
             </TextAppearAnimation>
 
@@ -63,9 +63,9 @@ const WhyChooseUsV6 = () => {
                   />
                 </svg>
               </span>
-              <h5 className="mb-2.5 mt-5 lg:text-[35px]">AI-Driven Innovation</h5>
+              <h5 className="mb-2.5 mt-5 lg:text-[35px]">Award-Winning Craft</h5>
               <p className="text-base leading-[1.6]">
-                Harness cutting-edge AI to enhance automation &amp; user engagement.
+                Recognized excellence in music video editing and commercial post production.
               </p>
             </RevealWrapper>
             <RevealWrapper className="flex-1 border px-[30px] py-20 dark:border-dark">
@@ -83,8 +83,8 @@ const WhyChooseUsV6 = () => {
                   />
                 </svg>
               </span>
-              <h5 className="mb-2.5 mt-5 lg:text-[35px]">App Development</h5>
-              <p className="text-base leading-[1.6]">Tailor-made solutions for startups, SMEs, and enterprises.</p>
+              <h5 className="mb-2.5 mt-5 lg:text-[35px]">Professional VFX</h5>
+              <p className="text-base leading-[1.6]">Stunning visual effects that elevate your content to cinematic quality.</p>
             </RevealWrapper>
             <RevealWrapper className="flex-1 border px-[30px] py-20 dark:border-dark">
               <span>
@@ -106,8 +106,8 @@ const WhyChooseUsV6 = () => {
                   />
                 </svg>
               </span>
-              <h5 className="mb-2.5 mt-5 lg:text-[35px]">Scalable &amp; Secure</h5>
-              <p className="text-base leading-[1.6]">Apps built for growth, high performance &amp; security.y</p>
+              <h5 className="mb-2.5 mt-5 lg:text-[35px]">Fast Turnaround</h5>
+              <p className="text-base leading-[1.6]">Efficient workflows that deliver polished results on tight deadlines.</p>
             </RevealWrapper>
           </RevealWrapper>
           <RevealWrapper className="flex flex-col gap-[30px] md:flex-row">
@@ -116,13 +116,13 @@ const WhyChooseUsV6 = () => {
                 <svg xmlns="http://www.w3.org/2000/svg" width={60} height={60} viewBox="0 0 60 60" fill="none">
                   <rect width={60} height={60} className="fill-backgroundBody dark:fill-secondary" />
                   <path
-                    d="M9.61413 20.7855C9.25894 20.9986 9.14377 21.4593 9.35688 21.8144C9.56999 22.1696 10.0307 22.2848 10.3859 22.0717L9.61413 20.7855ZM24.2857 12.8571L24.7357 12.2571C24.4918 12.0742 24.1613 12.0571 23.8998 12.214L24.2857 12.8571ZM35.7143 21.4286L35.2643 22.0286C35.5379 22.2338 35.9157 22.2279 36.1828 22.0142L35.7143 21.4286ZM50.4685 10.5857C50.792 10.3269 50.8444 9.85493 50.5857 9.53148C50.3269 9.20803 49.8549 9.15559 49.5315 9.41435L50.4685 10.5857ZM46.3929 50C46.3929 50.4142 46.7286 50.75 47.1429 50.75C47.5571 50.75 47.8929 50.4142 47.8929 50H46.3929ZM47.8929 27.1429C47.8929 26.7286 47.5571 26.3929 47.1429 26.3929C46.7286 26.3929 46.3929 26.7286 46.3929 27.1429H47.8929ZM23.5357 50C23.5357 50.4142 23.8715 50.75 24.2857 50.75C24.6999 50.75 25.0357 50.4142 25.0357 50H23.5357ZM25.0357 27.1429C25.0357 26.7286 24.6999 26.3929 24.2857 26.3929C23.8715 26.3929 23.5357 26.7286 23.5357 27.1429H25.0357ZM34.9643 50C34.9643 50.4142 35.3001 50.75 35.7143 50.75C36.1285 50.75 36.4643 50.4142 36.4643 50H34.9643ZM36.4643 35.7143C36.4643 35.3001 36.1285 34.9643 35.7143 34.9643C35.3001 34.9643 34.9643 35.3001 34.9643 35.7143H36.4643ZM12.1071 50C12.1071 50.4142 12.4429 50.75 12.8571 50.75C13.2714 50.75 13.6071 50.4142 13.6071 50H12.1071ZM13.6071 35.7143C13.6071 35.3001 13.2714 34.9643 12.8571 34.9643C12.4429 34.9643 12.1071 35.3001 12.1071 35.7143H13.6071ZM10.3859 22.0717L24.6716 13.5003L23.8998 12.214L9.61413 20.7855L10.3859 22.0717ZM23.8357 13.4571L35.2643 22.0286L36.1643 20.8286L24.7357 12.2571L23.8357 13.4571ZM36.1828 22.0142L50.4685 10.5857L49.5315 9.41435L35.2458 20.8429L36.1828 22.0142ZM47.8929 50V27.1429H46.3929V50H47.8929ZM25.0357 50V27.1429H23.5357V50H25.0357ZM36.4643 50V35.7143H34.9643V50H36.4643ZM13.6071 50V35.7143H12.1071V50H13.6071Z"
+                    d="M9.61413 20.7855C9.25894 20.9986 9.14377 21.4593 9.35688 21.8144C9.56999 22.1696 10.0307 22.2848 10.3859 22.0717L9.61413 20.7855ZM24.2857 12.8571L24.7357 12.2571C24.4918 12.0742 24.1613 12.0571 23.8998 12.214L24.2857 12.8571ZM35.7143 21.4286L35.2643 22.0286C35.5379 22.2338 35.9157 22.2279 36.1828 22.0142L35.7143 21.4286ZM50.4685 10.5857C50.792 10.3269 50.8444 9.85493 50.5857 9.53148C50.3269 9.20803 49.8549 9.15559 49.5315 9.41435L50.4685 10.5857ZM46.3929 50C46.3929 50.4142 46.7286 50.75 47.1429 50.75C47.5571 50.75 47.8929 50.4142 47.8929 50H46.3929ZM47.8929 27.1429C47.8929 26.7286 47.5571 26.3929 47.1429 26.3929C46.7286 26.3929 46.3929 26.7286 46.3929 27.1429H47.8929ZM23.5357 50C23.5357 50.4142 23.8715 50.75 24.2857 50.75C24.6999 50.75 25.0357 50.4142 25.0357 50H23.5357ZM25.0357 27.1429C25.0357 26.7286 24.6999 26.3929 24.2857 26.3929C23.8715 26.3929 23.5357 26.7286 23.5357 27.1429H25.0357ZM34.9643 50C34.9643 50.4142 35.3001 50.75 35.7143 50.75C36.1285 50.75 36.4643 50.4142 36.4643 50H34.9643ZM36.4643 35.7143C36.4643 35.3001 36.1285 34.9643 35.7143 34.9643C35.3001 34.9643 34.9643 35.3001 34.9643 35.7143H34.9643ZM12.1071 50C12.1071 50.4142 12.4429 50.75 12.8571 50.75C13.2714 50.75 13.6071 50.4142 13.6071 50H12.1071ZM13.6071 35.7143C13.6071 35.3001 13.2714 34.9643 12.8571 34.9643C12.4429 34.9643 12.1071 35.3001 12.1071 35.7143H13.6071ZM10.3859 22.0717L24.6716 13.5003L23.8998 12.214L9.61413 20.7855L10.3859 22.0717ZM23.8357 13.4571L35.2643 22.0286L36.1643 20.8286L24.7357 12.2571L23.8357 13.4571ZM36.1828 22.0142L50.4685 10.5857L49.5315 9.41435L35.2458 20.8429L36.1828 22.0142ZM47.8929 50V27.1429H46.3929V50H47.8929ZM25.0357 50V27.1429H23.5357V50H25.0357ZM36.4643 50V35.7143H34.9643V50H36.4643ZM13.6071 50V35.7143H12.1071V50H13.6071Z"
                     className="fill-secondary dark:fill-backgroundBody"
                   />
                 </svg>
               </span>
-              <h5 className="mb-2.5 mt-5 lg:text-[35px]">Seamless UI/UX</h5>
-              <p className="text-base leading-[1.6]">Engaging, intuitive, and conversion-focused interfaces.</p>
+              <h5 className="mb-2.5 mt-5 lg:text-[35px]">Color Grading</h5>
+              <p className="text-base leading-[1.6]">Professional color correction that sets the perfect mood and tone.</p>
             </RevealWrapper>
             <RevealWrapper className="min-h-[322px] flex-1 border px-[30px] py-20 dark:border-dark">
               <span>
@@ -160,8 +160,8 @@ const WhyChooseUsV6 = () => {
                   />
                 </svg>
               </span>
-              <h5 className="mb-2.5 mt-5 lg:text-[35px]">Cross-Platform Development</h5>
-              <p className="text-base leading-[1.6]">Web, iOS, and Android compatibility.</p>
+              <h5 className="mb-2.5 mt-5 lg:text-[35px]">Creative Collaboration</h5>
+              <p className="text-base leading-[1.6]">We work closely with artists to bring their unique vision to life.</p>
             </RevealWrapper>
           </RevealWrapper>
         </article>

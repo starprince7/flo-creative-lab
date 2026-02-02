@@ -15,8 +15,7 @@ const Footer = () => {
               Reach Us
             </h5>
             <p className="mb-5 text-sm text-white">
-              Book a quick 15 min meeting where we discuss if our offer <br />
-              would work for your case
+              Book a quick 15 min call let's discuss how my service can help your project come to life.
             </p>
             <div className="group flex max-w-[360px] items-center justify-between gap-4 bg-primary bg-opacity-30 p-4 backdrop-blur-2xl">
               <Image className="h-[55px] w-auto" src={logo} alt="logo" />

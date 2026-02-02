@@ -25,7 +25,7 @@ const AboutPage = () => {
       <About />
       <Team />
       <Marquee withBorder={true} />
-      <AwardsV2 />
+      {/* <AwardsV2 /> */}
       <CTA>
         Let's chat
         <CtaImageSlider
