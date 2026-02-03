@@ -2,26 +2,26 @@
   {
     "id": 1,
     "question": "What does it cost to work with you?",
-    "answer": "We mostly work on a fixed-bid basis for our projects, focusing on a select few clients at a time. To provide an accurate estimate, we need a clear understanding of your requirements, project scope, deliverables, and timelines."
+    "answer": "We offer competitive pricing based on project scope and complexity. Music video editing starts from a base rate, with final quotes depending on footage length, VFX requirements, and turnaround time. Contact us for a personalized estimate."
   },
   {
     "id": 2,
-    "question": "How big is your team?",
-    "answer": "We mostly work on a fixed-bid basis for our projects, focusing on a select few clients at a time. To provide an accurate estimate, we need a clear understanding of your requirements, project scope, deliverables, and timelines."
+    "question": "What editing software do you use?",
+    "answer": "We work with industry-standard tools including DaVinci Resolve, Adobe Premiere Pro, After Effects, and specialized VFX software. Our expertise spans the full post production pipeline from assembly to final delivery."
   },
   {
     "id": 3,
-    "question": "Do you provide white labeled services?",
-    "answer": "We mostly work on a fixed-bid basis for our projects, focusing on a select few clients at a time. To provide an accurate estimate, we need a clear understanding of your requirements, project scope, deliverables, and timelines."
+    "question": "Can you work with footage from any camera?",
+    "answer": "Yes, we work with footage from virtually any source—RED, ARRI, Blackmagic, Sony, Canon, and even smartphone footage. We optimize and color match diverse sources for a cohesive final product."
   },
   {
     "id": 4,
-    "question": "Do you work with other agencies?",
-    "answer": "We mostly work on a fixed-bid basis for our projects, focusing on a select few clients at a time. To provide an accurate estimate, we need a clear understanding of your requirements, project scope, deliverables, and timelines."
+    "question": "Do you work with production companies?",
+    "answer": "Absolutely. We regularly partner with production companies and creative agencies to handle post production. Our collaborative workflow integrates seamlessly with your team's process."
   },
   {
     "id": 5,
-    "question": "Do you work with Webflow templates?",
-    "answer": "We mostly work on a fixed-bid basis for our projects, focusing on a select few clients at a time. To provide an accurate estimate, we need a clear understanding of your requirements, project scope, deliverables, and timelines."
+    "question": "How do revisions work?",
+    "answer": "We include revision rounds in every project to ensure you're completely satisfied. You'll receive preview cuts for feedback, and we refine until the final product exceeds your expectations."
   }
 ]

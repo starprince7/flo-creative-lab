@@ -18,8 +18,8 @@ const homepage14 = () => {
     <LayoutTwo>
       <HeroV14 />
       <AboutV13 />
-      <ServicesV13 />
       <OurWorkShowcase />
+      <ServicesV13 />
       <WhyChooseUsV3 />
       {/* <AwardWinningWork /> */}
       <TestimonialV9 />

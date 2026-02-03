@@ -42,12 +42,32 @@ const youtubeVideos: VideoType[] = [
     url: 'https://www.youtube.com/embed/AzCfHLpx16Q',
   },
   {
-    // id: '1oQvc7Pc0jg',
-    // title: 'Barry Jhay - See Me See God',
-    // url: 'https://www.youtube.com/embed/1oQvc7Pc0jg',
     id: 'TIzz8FuSjN4',
     title: 'Barry Jhay - See Me See God (Visualizer)',
     url: 'https://www.youtube.com/embed/TIzz8FuSjN4',
+  },
+]
+
+const commercialVideos: VideoType[] = [
+  {
+    id: 'rCEtEpiw2UQ',
+    title: 'Commercial 1',
+    url: 'https://www.youtube.com/embed/rCEtEpiw2UQ',
+  },
+  {
+    id: 'P9lsj69BL5Q',
+    title: 'Commercial 2',
+    url: 'https://www.youtube.com/embed/P9lsj69BL5Q',
+  },
+  {
+    id: 'Nj4bR3sbe_w',
+    title: 'Commercial 3',
+    url: 'https://www.youtube.com/embed/Nj4bR3sbe_w',
+  },
+  {
+    id: 'vFoqwUsexk0',
+    title: 'Commercial 4',
+    url: 'https://www.youtube.com/embed/vFoqwUsexk0',
   },
 ]
 
@@ -73,7 +93,7 @@ const OurWorkShowcase = () => {
 
         {/* Projects Grid */}
 
-        {/* Videos Grid */}
+        {/* Music Videos Grid */}
         <div className="mb-[60px] grid grid-cols-1 gap-[30px] md:grid-cols-2 lg:grid-cols-3">
           {youtubeVideos.map((video) => (
             <RevealWrapper key={video.id} className="group border px-3.5 pb-7 pt-3.5 dark:border-dark md:px-5 md:pt-5">
@@ -95,14 +115,64 @@ const OurWorkShowcase = () => {
           ))}
         </div>
 
-        <RevealWrapper as="ul" className="flex justify-center">
+        {/* Music Videos CTA */}
+        <RevealWrapper as="ul" className="mb-[88px] flex justify-center">
           <li className="mx-auto block max-md:w-full md:ml-auto md:inline-block md:w-auto">
-            <Link href="/about" className="rv-button rv-button-secondary block text-center md:inline-block">
+            <Link href="/flim-making/music-videos" className="rv-button rv-button-secondary block text-center md:inline-block">
               <div className="rv-button-top">
-                <span>See Project</span>
+                <span>See Projects</span>
               </div>
               <div className="rv-button-bottom">
-                <span>See Project</span>
+                <span>See Projects</span>
+              </div>
+            </Link>
+          </li>
+        </RevealWrapper>
+
+        {/* Commercials Section */}
+        <div className="mb-8 text-center md:mb-16">
+          <TextAppearAnimation>
+            <h2 className="text-appear mb-3">
+              Commercials <br />
+              <i className="font-instrument">that captivate</i>
+            </h2>
+          </TextAppearAnimation>
+          <TextAppearAnimation>
+            <p className="text-appear">Brand stories that drive results</p>
+          </TextAppearAnimation>
+        </div>
+
+        {/* Commercials Videos Grid */}
+        <div className="mb-[60px] grid grid-cols-1 gap-[30px] md:grid-cols-2">
+          {commercialVideos.map((video) => (
+            <RevealWrapper key={video.id} className="group border px-3.5 pb-7 pt-3.5 dark:border-dark md:px-5 md:pt-5">
+              <div className="aspect-video w-full overflow-hidden">
+                <iframe
+                  src={video.url}
+                  title={video.title}
+                  className="h-full w-full"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
+              <div className="mt-5">
+                <h3 className="text-xl font-normal leading-tight text-secondary dark:text-white lg:text-2xl">
+                  {video.title}
+                </h3>
+              </div>
+            </RevealWrapper>
+          ))}
+        </div>
+
+        {/* Commercials CTA */}
+        <RevealWrapper as="ul" className="flex justify-center">
+          <li className="mx-auto block max-md:w-full md:ml-auto md:inline-block md:w-auto">
+            <Link href="/flim-making/commercials" className="rv-button rv-button-secondary block text-center md:inline-block">
+              <div className="rv-button-top">
+                <span>See Projects</span>
+              </div>
+              <div className="rv-button-bottom">
+                <span>See Projects</span>
               </div>
             </Link>
           </li>

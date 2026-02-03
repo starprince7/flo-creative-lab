@@ -1,27 +1,27 @@
 [
   {
     "id": 1,
-    "question": "What services does Rivor offer?",
-    "answer": "Rivor provides a range of digital services including web design, development, SEO, branding, mobile app development, and digital marketing. The email automation company also enhances the UX using a sidebar with a category overview and jump-to links, information about additional resources, and messages that encourage sales conversions."
+    "question": "What services does FloCreativeLab offer?",
+    "answer": "FloCreativeLab specializes in professional video editing and post production services including music video editing, TV commercial production, visual effects (VFX), color grading, motion graphics, and sound design. We transform raw footage into polished, cinematic content."
   },
   {
     "id": 2,
-    "question": "How long does a project typically take to complete?",
-    "answer": "Project timelines vary depending on the scope and complexity. We work with you to set clear deadlines and ensure timely delivery."
+    "question": "How long does a video project typically take?",
+    "answer": "Project timelines vary depending on the scope and complexity. Music videos typically take 2-4 weeks, while commercials may require 1-3 weeks. We discuss timelines upfront and can accommodate rush projects when needed."
   },
   {
     "id": 3,
-    "question": "Can Rivor handle both small and large-scale projects?",
-    "answer": "Yes, we are equipped to handle projects of any size, from small startups to large enterprises, tailoring our approach to meet your specific needs."
+    "question": "Can FloCreativeLab handle both independent and major label projects?",
+    "answer": "Yes, we work with artists and brands of all sizes—from emerging independent artists to major labels and established brands. We tailor our approach to meet your specific creative vision and budget."
   },
   {
     "id": 4,
-    "question": "How involved will I be in the project?",
-    "answer": "We value collaboration and will keep you updated at every stage. Your input is crucial to ensure we align with your vision and goals."
+    "question": "How involved will I be in the editing process?",
+    "answer": "We value collaboration and keep you updated at every stage. You'll receive preview cuts for feedback, and your creative input is crucial to ensure the final product aligns perfectly with your vision."
   },
   {
     "id": 5,
-    "question": "Do you provide post-launch support?",
-    "answer": "Absolutely! We offer ongoing support and maintenance to ensure your project runs smoothly after launch."
+    "question": "What video formats do you deliver in?",
+    "answer": "We deliver in all standard formats optimized for your distribution channels—YouTube, streaming platforms, broadcast TV, social media, and theatrical release. Your content will look stunning everywhere it's seen."
   }
 ]
