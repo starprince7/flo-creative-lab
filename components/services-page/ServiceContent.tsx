@@ -44,11 +44,6 @@ const ServiceContent = ({ service }: any) => {
     <section className="pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px]">
       <div className="mx-auto max-w-[1440px] px-8 md:px-20">
         <div className="flex flex-col justify-start gap-8 lg:flex-row">
-          <aside className="min-w-[275px] flex-1">
-            <div className="sticky top-28">
-              <TableOfContent tableOfContents={tableOfContents} />
-            </div>
-          </aside>
 
           <article className="project-details-body">
             <RevealWrapper as="figure" className="relative h-[497px] w-full">
@@ -139,9 +134,7 @@ const ServiceContent = ({ service }: any) => {
                 />
               )}
             </RevealWrapper>
-            <RevealWrapper>
-              <ReactMarkdown rehypePlugins={[[rehypeSlug]]}>{service.content}</ReactMarkdown>
-            </RevealWrapper>
+
           </article>
         </div>
       </div>

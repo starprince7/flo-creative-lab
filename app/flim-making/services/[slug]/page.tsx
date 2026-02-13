@@ -32,18 +32,6 @@ const ServiceDetails = async ({ params }: { params: Promise<{ slug: string }> })
       <ServiceContent service={plainService} />
       <WhyChooseUsV6 />
       <FaqV2 titleChange />
-      <CTA headingClass="xl:text-[88px]" buttonText="Start Your Film Project">
-        Let’s Create
-        <CtaImageSlider
-          slides={[
-            { id: '1', img: '/images/cta-slides/phone-back.jpg' },
-            { id: '2', img: '/images/cta-slides/on-call.jpg' },
-            { id: '3', img: '/images/cta-slides/iphone-6.jpg' },
-          ]}
-        />
-        Something
-        <span className="block font-instrument italic max-md:inline-block sm:mt-10">Extraordinary</span>
-      </CTA>
     </LayoutOne>
   )
 }

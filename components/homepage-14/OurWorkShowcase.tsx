@@ -17,9 +17,9 @@ interface VideoType {
 
 const youtubeVideos: VideoType[] = [
   {
-    id: 'QMD9oUuRs-E',
-    title: 'Flavour - Her Excellency (Nwunye Odogwu)',
-    url: 'https://www.youtube.com/embed/QMD9oUuRs-E',
+    id: 'ae_GdPXYvzw',
+    title: 'Qing Madi, Chlöe - Vision (Remix)',
+    url: 'https://www.youtube.com/embed/ae_GdPXYvzw',
   },
   {
     id: 'xUN6moJ8cSk',
@@ -27,14 +27,19 @@ const youtubeVideos: VideoType[] = [
     url: 'https://www.youtube.com/embed/xUN6moJ8cSk',
   },
   {
-    id: 'vQujzvga9HU',
-    title: "D'Banj - Since '04",
-    url: 'https://www.youtube.com/embed/vQujzvga9HU',
+    id: 'yC0b02icKaI',
+    title: 'Guchi - Balance',
+    url: 'https://www.youtube.com/embed/yC0b02icKaI?si=djCFyp8VdY5sYMjZ',
   },
   {
-    id: 'ae_GdPXYvzw',
-    title: 'Qing Madi, Chlöe - Vision (Remix)',
-    url: 'https://www.youtube.com/embed/ae_GdPXYvzw',
+    id: 'bIgSdyo7t_E',
+    title: 'Oxlade - Ololufe ft Sarkodie',
+    url: 'https://www.youtube.com/embed/bIgSdyo7t_E?si=eVaGJt_upct-lRPJ',
+  },
+  {
+    id: 'z9T46HqsXXE',
+    title: 'Reekado Banks - My Woman ft Phyno',
+    url: 'https://www.youtube.com/embed/z9T46HqsXXE?si=2j6fHRZlOSzjAWLf',
   },
   {
     id: 'AzCfHLpx16Q',
@@ -42,9 +47,44 @@ const youtubeVideos: VideoType[] = [
     url: 'https://www.youtube.com/embed/AzCfHLpx16Q',
   },
   {
-    id: 'TIzz8FuSjN4',
-    title: 'Barry Jhay - See Me See God (Visualizer)',
-    url: 'https://www.youtube.com/embed/TIzz8FuSjN4',
+    id: 'QMD9oUuRs-E',
+    title: 'Flavour - Her Excellency (Nwunye Odogwu)',
+    url: 'https://www.youtube.com/embed/QMD9oUuRs-E',
+  },
+  {
+    id: 'vQujzvga9HU',
+    title: "D'Banj - Since '04",
+    url: 'https://www.youtube.com/embed/vQujzvga9HU',
+  },
+  {
+    id: 'ozxdtxb5tZE',
+    title: 'Joeboy - Taxi Driver',
+    url: 'https://www.youtube.com/embed/ozxdtxb5tZE?si=P2AGgk-_C7F9W5mA',
+  },
+  {
+    id: 'IkoIKcuq3ic',
+    title: 'Joeboy ft. Qing Madi - Adenuga',
+    url: 'https://www.youtube.com/embed/IkoIKcuq3ic?si=GeclfzsOB5NkRrcn',
+  },
+  {
+    id: '5ApZCJF2t3I',
+    title: 'Victony - Risk',
+    url: 'https://www.youtube.com/embed/5ApZCJF2t3I?si=dxP5Jo3107j0Tk9B',
+  },
+  {
+    id: 'xdsgKgqnttU',
+    title: 'Phyno & Fave - Deep',
+    url: 'https://www.youtube.com/embed/xdsgKgqnttU?si=VyP4SjnWRVE3meKt',
+  },
+  {
+    id: 'ipSBSVZH3p4',
+    title: 'DJ OBI, Timaya - PATEK',
+    url: 'https://www.youtube.com/embed/ipSBSVZH3p4?si=uPr4BdEodRTJsJgd',
+  },
+  {
+    id: 'n4n--ZFdVWQ',
+    title: 'Alpha P, Olamide & Thisizlondon - W',
+    url: 'https://www.youtube.com/embed/n4n--ZFdVWQ?si=S0r7EWvV55L5qAni',
   },
 ]
 
@@ -80,14 +120,7 @@ const OurWorkShowcase = () => {
             <span className="rv-badge-text">Our Work</span>
           </RevealWrapper>
           <TextAppearAnimation>
-            <h2 className="text-appear mb-3">
-              Music, <br />
-              Videos
-              <i className="font-instrument"> that inspire</i>
-            </h2>
-          </TextAppearAnimation>
-          <TextAppearAnimation>
-            <p className="text-appear">A legacy of Award-Winning productions</p>
+            <h2 className="text-appear mb-3">Music Videos</h2>
           </TextAppearAnimation>
         </div>
 
@@ -118,7 +151,9 @@ const OurWorkShowcase = () => {
         {/* Music Videos CTA */}
         <RevealWrapper as="ul" className="mb-[88px] flex justify-center">
           <li className="mx-auto block max-md:w-full md:ml-auto md:inline-block md:w-auto">
-            <Link href="/flim-making/music-videos" className="rv-button rv-button-secondary block text-center md:inline-block">
+            <Link
+              href="/flim-making/music-videos"
+              className="rv-button rv-button-secondary block text-center md:inline-block">
               <div className="rv-button-top">
                 <span>See Projects</span>
               </div>
@@ -167,7 +202,9 @@ const OurWorkShowcase = () => {
         {/* Commercials CTA */}
         <RevealWrapper as="ul" className="flex justify-center">
           <li className="mx-auto block max-md:w-full md:ml-auto md:inline-block md:w-auto">
-            <Link href="/flim-making/commercials" className="rv-button rv-button-secondary block text-center md:inline-block">
+            <Link
+              href="/flim-making/commercials"
+              className="rv-button rv-button-secondary block text-center md:inline-block">
               <div className="rv-button-top">
                 <span>See Projects</span>
               </div>

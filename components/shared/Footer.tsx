@@ -17,27 +17,6 @@ const Footer = () => {
             <p className="mb-5 text-sm text-white">
               Book a quick 15 min call let's discuss how my service can help your project come to life.
             </p>
-            <div className="group flex max-w-[360px] items-center justify-between gap-4 bg-primary bg-opacity-30 p-4 backdrop-blur-2xl">
-              <Image className="h-[55px] w-auto" src={logo} alt="logo" />
-              <div>
-                <h6 className="font-satoshi text-sm font-bold text-white">Schedule a Free Meeting</h6>
-                <p className="text-sm text-white">1 spot left this month</p>
-              </div>
-              <Link href="/contact">
-                <figure className="relative h-[55px] w-[55px] cursor-pointer overflow-hidden bg-primary">
-                  <Image
-                    src={arrowIcon}
-                    alt="Arrow Icon"
-                    className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 opacity-100 transition-all duration-500 group-hover:-translate-y-12 group-hover:translate-x-8 group-hover:opacity-0"
-                  />
-                  <Image
-                    src={arrowIcon}
-                    alt="Arrow Icon"
-                    className="absolute -translate-x-4 translate-y-12 opacity-0 transition-all duration-500 group-hover:translate-x-[19px] group-hover:translate-y-5 group-hover:opacity-100"
-                  />
-                </figure>
-              </Link>
-            </div>
           </div>
 
           {footerData.map((section, index) => (
@@ -59,12 +38,6 @@ const Footer = () => {
             </div>
           ))}
         </div>
-      </div>
-
-      <div className="absolute bottom-0 w-full">
-        <h5 className="footer-text xs:text-5xl absolute bottom-0 left-1/2 w-full -translate-x-1/2 translate-y-[30%] text-nowrap text-center font-satoshi text-4xl font-medium tracking-widest sm:text-6xl md:text-[88px] lg:text-[120px] xl:text-[150px] 2xl:text-[170px]">
-          FLO CREATIVE LABS
-        </h5>
       </div>
     </FooterProvider>
   )

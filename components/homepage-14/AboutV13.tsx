@@ -12,17 +12,9 @@ const AboutV13 = () => {
           <RevealWrapper className="rv-badge mb-3">
             <span className="rv-badge-text">About</span>
           </RevealWrapper>
-          <TextAppearAnimation>
-            <h2 className="text-appear mb-6">Where Vision Meets Execution</h2>
-          </TextAppearAnimation>
           <RevealWrapper as="h5">
             FloCreativeLabs is a premium post production agency partnering with visionary directors, artists, and brands
             to create visually striking content defined by precision, depth, and cinematic excellence.
-          </RevealWrapper>
-          <RevealWrapper as="p" className="mx-auto mt-3 max-w-3xl">
-            With a team of accomplished filmmakers and VFX artists, we transform concepts into powerful visual
-            narratives. Every frame is treated with intention—ensuring each project not only looks exceptional but feels
-            unforgettable.
           </RevealWrapper>
           <RevealWrapper as="ul" className="mt-7 justify-self-center max-md:w-full md:mt-14">
             <li className="mx-auto block w-full text-center md:inline-block md:w-auto">

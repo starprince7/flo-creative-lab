@@ -6,7 +6,7 @@ const FooterV2 = () => {
     <footer className="w-full overflow-hidden">
       <div className="bg-backgroundBody dark:bg-secondary">
         <h5 className="footer-text-v2 w-full text-nowrap text-center font-satoshi text-[120px] font-medium uppercase leading-[100%] sm:text-[200px] md:text-[258px] lg:text-[300px] xl:text-[350px] 2xl:text-[386px]">
-          FloCreative Lab
+          .
         </h5>
       </div>
       <div className="-mt-10 bg-backgroundBody py-4 dark:bg-dark sm:-mt-[70px] md:-mt-24 xl:-mt-28">

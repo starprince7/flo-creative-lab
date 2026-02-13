@@ -32,16 +32,11 @@ const HeroV14 = () => {
       </video>
       <RevealWrapper className="container absolute left-1/3 top-2/3 -translate-x-1/3 -translate-y-2/3 lg:top-1/2 lg:-translate-y-1/2">
         <h1 className="mb-3 text-backgroundBody max-md:leading-none">
-          Crafting <br className="hidden md:block" />
-          unforgettable
-          <br className="hidden md:block" />
-          <i className="font-instrument text-inherit">cinematic </i>
-          <i className="font-instrument text-inherit">experiences</i>
+          Shaping <br className="hidden md:block" />
+          raw <i className="font-instrument text-inherit">footage</i> through
+          <br className="hidden md:block" /> precision <i className="font-instrument text-inherit">editing</i>
         </h1>
-        <p className="max-w-3xl text-backgroundBody/70">
-          From polished music videos to high-end TV commercials, FloCreativeLab blends artistry and precision to bring
-          your vision to life.
-        </p>
+        <p className="max-w-3xl text-backgroundBody/70">From polished music videos to high-end TV commercials.</p>
         {/* Primary CTA Button */}
         <ul className="mt-7 flex list-none justify-start lg:mt-14">
           <li className="block w-full text-center md:inline-block md:w-auto">
