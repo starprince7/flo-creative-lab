@@ -14,22 +14,22 @@ interface VideoType {
 const commercialVideos: VideoType[] = [
   {
     id: 'rCEtEpiw2UQ',
-    title: 'Commercial 1',
+    title: '',
     url: 'https://www.youtube.com/embed/rCEtEpiw2UQ',
   },
   {
     id: 'P9lsj69BL5Q',
-    title: 'Commercial 2',
+    title: '',
     url: 'https://www.youtube.com/embed/P9lsj69BL5Q',
   },
   {
     id: 'Nj4bR3sbe_w',
-    title: 'Commercial 3',
+    title: '',
     url: 'https://www.youtube.com/embed/Nj4bR3sbe_w',
   },
   {
     id: 'vFoqwUsexk0',
-    title: 'Commercial 4',
+    title: '',
     url: 'https://www.youtube.com/embed/vFoqwUsexk0',
   },
 ]
@@ -42,9 +42,7 @@ const CommercialsPage = () => {
       <section className="pb-14 pt-28 sm:pt-32 md:pb-16 md:pt-16 lg:pb-[88px] lg:pt-[88px] xl:pb-[100px] xl:pt-[100px]">
         <div className="container">
           <div className="mb-8 text-center md:mb-16">
-            <RevealWrapper className="rv-badge mb-3">
-              <span className="rv-badge-text">Our Work</span>
-            </RevealWrapper>
+            
             <TextAppearAnimation>
               <h1 className="text-appear mb-3">
                 Commercials

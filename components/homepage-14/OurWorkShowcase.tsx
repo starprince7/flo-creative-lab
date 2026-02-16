@@ -77,11 +77,6 @@ const youtubeVideos: VideoType[] = [
     url: 'https://www.youtube.com/embed/xdsgKgqnttU?si=VyP4SjnWRVE3meKt',
   },
   {
-    id: 'ipSBSVZH3p4',
-    title: 'DJ OBI, Timaya - PATEK',
-    url: 'https://www.youtube.com/embed/ipSBSVZH3p4?si=uPr4BdEodRTJsJgd',
-  },
-  {
     id: 'n4n--ZFdVWQ',
     title: 'Alpha P, Olamide & Thisizlondon - W',
     url: 'https://www.youtube.com/embed/n4n--ZFdVWQ?si=S0r7EWvV55L5qAni',
@@ -91,22 +86,22 @@ const youtubeVideos: VideoType[] = [
 const commercialVideos: VideoType[] = [
   {
     id: 'rCEtEpiw2UQ',
-    title: 'Commercial 1',
+    title: '',
     url: 'https://www.youtube.com/embed/rCEtEpiw2UQ',
   },
   {
     id: 'P9lsj69BL5Q',
-    title: 'Commercial 2',
+    title: '',
     url: 'https://www.youtube.com/embed/P9lsj69BL5Q',
   },
   {
     id: 'Nj4bR3sbe_w',
-    title: 'Commercial 3',
+    title: '',
     url: 'https://www.youtube.com/embed/Nj4bR3sbe_w',
   },
   {
     id: 'vFoqwUsexk0',
-    title: 'Commercial 4',
+    title: '',
     url: 'https://www.youtube.com/embed/vFoqwUsexk0',
   },
 ]
@@ -116,9 +111,6 @@ const OurWorkShowcase = () => {
     <section className="pb-14 pt-14 md:pb-16 md:pt-16 lg:pb-[88px] lg:pt-[88px] xl:pb-[100px] xl:pt-[100px]">
       <div className="container">
         <div className="mb-8 text-center md:mb-16">
-          <RevealWrapper className="rv-badge mb-3">
-            <span className="rv-badge-text">Our Work</span>
-          </RevealWrapper>
           <TextAppearAnimation>
             <h2 className="text-appear mb-3">Music Videos</h2>
           </TextAppearAnimation>
@@ -165,15 +157,9 @@ const OurWorkShowcase = () => {
         </RevealWrapper>
 
         {/* Commercials Section */}
-        <div className="mb-8 text-center md:mb-16">
+        <div className="mb-8 pt-28 text-center md:mb-16">
           <TextAppearAnimation>
-            <h2 className="text-appear mb-3">
-              Commercials <br />
-              <i className="font-instrument">that captivate</i>
-            </h2>
-          </TextAppearAnimation>
-          <TextAppearAnimation>
-            <p className="text-appear">Brand stories that drive results</p>
+            <h2 className="text-appear mb-3">Commercials</h2>
           </TextAppearAnimation>
         </div>
 

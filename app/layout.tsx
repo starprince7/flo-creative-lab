@@ -1,7 +1,7 @@
 import CursorPointer from '@/components/animation/CursorPointer'
 import SmoothScrollProvider from '@/components/shared/SmoothScroll'
 import ThemeSwitcher from '@/components/theme/ThemeSwitcher'
-import { satoshi } from '@/utils/fonts'
+import { poppins, satoshi } from '@/utils/fonts'
 import { ThemeModeProvider } from '@/utils/Providers'
 import type { Metadata } from 'next'
 import { ReactNode, Suspense } from 'react'
@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${satoshi.variable} antialiased`}>
+      <body className={`${poppins.variable} antialiased`}>
         <Suspense fallback={<div>Loading...</div>}>
           <SmoothScrollProvider>
             <ThemeModeProvider>

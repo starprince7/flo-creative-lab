@@ -16,8 +16,10 @@ export default {
         '2xl': '1430px',
       },
       fontFamily: {
-        satoshi: ['var(--font-satoshi)'],
-        instrument: ["'Instrument Serif', system-ui"],
+        // satoshi: ['var(--font-satoshi)'],
+        satoshi: ['var(--font-poppins)'],
+        poppins: ['var(--font-poppins)'],
+        instrument: ['var(--font-poppins)'],
       },
       colors: {
         primary: '#12D8CC',
