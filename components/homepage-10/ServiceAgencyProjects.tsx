@@ -22,7 +22,7 @@ const ServiceAgencyProjects = () => {
           <div className="flex-1">
             <TextAppearAnimation>
               <h2 className="text-appear">
-                <span className="font-instrument italic">Our latest</span>
+                <span className="font-instrument">Our latest</span>
                 <br className="hidden md:block" />
                 projects
               </h2>

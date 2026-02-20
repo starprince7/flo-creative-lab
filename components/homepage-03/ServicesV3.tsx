@@ -74,7 +74,7 @@ const ServicesV3 = () => {
           <div className="flex-1">
             <TextAppearAnimation>
               <h2 className="text-appear max-lg:leading-[1.33]">
-                <span className="font-instrument italic lg:text-[65px]">Cool </span>
+                <span className="font-instrument lg:text-[65px]">Cool </span>
                 services
               </h2>
             </TextAppearAnimation>

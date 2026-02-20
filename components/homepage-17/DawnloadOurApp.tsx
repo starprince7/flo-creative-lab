@@ -13,7 +13,7 @@ const DawnloadOurApp = () => {
           <div className="flex-1">
             <TextAppearAnimation>
               <h2 className="text-appear text-backgroundBody md:text-right">
-                <span className="font-instrument italic">Download our</span>
+                <span className="font-instrument">Download our</span>
                 <br className="hidden md:block" />
                 latest Apps
               </h2>

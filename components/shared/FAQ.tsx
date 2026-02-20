@@ -34,14 +34,14 @@ const FAQ = ({ bigTitleWithBadge = false }: FaqProps) => {
             </div>
             <TextAppearAnimation>
               <h1 className="text-appear mb-10 text-center md:mb-20">
-                Frequently Asked <i className="font-instrument italic">Questions</i>
+                Frequently Asked <i className="font-instrument">Questions</i>
               </h1>
             </TextAppearAnimation>
           </>
         ) : (
           <TextAppearAnimation>
             <h2 className="text-appear mb-10 text-center md:mb-20">
-              Frequently Asked <i className="font-instrument italic">Questions</i>
+              Frequently Asked <i className="font-instrument">Questions</i>
             </h2>
           </TextAppearAnimation>
         )}

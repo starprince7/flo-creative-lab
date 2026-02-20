@@ -60,6 +60,9 @@
   em {
     @apply not-italic;
   }
+  i {
+    @apply not-italic;
+  }
   a {
     @apply inline-block text-sm font-medium leading-[1.1] text-black dark:text-backgroundBody;
   }

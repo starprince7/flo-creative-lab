@@ -14,7 +14,7 @@ const ProjectHero = () => {
 
           <h1 className="mb-3 mt-3.5 sm:mb-4 sm:mt-5 lg:mb-7 lg:mt-9">
             Quality stuff.
-            <span className="font-instrument italic">
+            <span className="font-instrument">
               In every <br /> project.
             </span>
           </h1>

@@ -35,7 +35,7 @@ const page = () => {
           ]}
         />
         Your
-        <span className="block font-instrument italic max-md:inline-block sm:mt-10">Business Success Together</span>
+        <span className="block font-instrument max-md:inline-block sm:mt-10">Business Success Together</span>
       </CTA>
     </LayoutOne>
   )

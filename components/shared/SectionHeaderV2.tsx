@@ -14,7 +14,7 @@ const SectionHeaderV2 = ({ headingTitle, italicTitle, description, serviceHeadin
       <TextAppearAnimation>
         <h2 className={`text-appear text-secondary dark:text-backgroundBody`}>
           {headingTitle}
-          <i className={`ml-2 font-instrument italic text-secondary dark:text-backgroundBody`}>{italicTitle}</i>
+          <i className={`ml-2 font-instrument text-secondary dark:text-backgroundBody`}>{italicTitle}</i>
         </h2>
       </TextAppearAnimation>
 

@@ -19,7 +19,7 @@ const DigitalSolutionBlog = () => {
           <div className="flex-1 md:self-start">
             <TextAppearAnimation>
               <h2 className="text-appear lg:text-[70px]">
-                <span className="font-instrument italic"> Knowledge</span>
+                <span className="font-instrument"> Knowledge</span>
                 <br className="hidden md:block" />
                 We impart
               </h2>

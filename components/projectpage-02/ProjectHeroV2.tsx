@@ -15,7 +15,7 @@ const ProjectHeroV2 = () => {
 
         <h1 className="mt-5 text-center sm:mt-6 md:mt-9 xl:text-nowrap">
           Crafting Tomorrow's
-          <span className="ml-5 inline-block font-instrument italic max-sm:mr-3">Solutions,</span>
+          <span className="ml-5 inline-block font-instrument max-sm:mr-3">Solutions,</span>
           <br className="hidden xl:block" />
           Today
         </h1>

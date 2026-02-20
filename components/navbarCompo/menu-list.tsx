@@ -224,7 +224,7 @@ export const MenuList = forwardRef<HTMLUListElement, MenuListProps>((props, ref)
                     {subItem.title.includes('-') ? (
                       <>
                         {subItem.title.split('-')[0]}-
-                        <i className="font-instrument italic text-inherit">{subItem.title.split('-')[1]}</i>
+                        <i className="font-instrument text-inherit">{subItem.title.split('-')[1]}</i>
                       </>
                     ) : (
                       subItem.title

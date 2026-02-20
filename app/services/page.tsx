@@ -32,7 +32,7 @@ const ServicesPage = () => {
           ]}
         />
         with us.
-        <i className="block font-instrument italic max-md:inline-block max-sm:pl-2 sm:mt-10">A virtual coffee?</i>
+        <i className="block font-instrument max-md:inline-block max-sm:pl-2 sm:mt-10">A virtual coffee?</i>
       </CTA>{' '}
     </LayoutOne>
   )

@@ -90,7 +90,7 @@ const TestimonialV9 = () => {
             <TextAppearAnimation02>
               <h2 className="text-appear-2">
                 Celebrating excellence in
-                <span className="font-instrument italic"> filmmaking</span>
+                <span className="font-instrument"> filmmaking</span>
               </h2>
             </TextAppearAnimation02>
           </div>

@@ -31,7 +31,7 @@ const page = () => {
           ]}
         />
         Create
-        <span className="block font-instrument italic max-md:inline-block sm:mt-10">Something Iconic</span>
+        <span className="block font-instrument max-md:inline-block sm:mt-10">Something Iconic</span>
       </CTA>
     </LayoutOne>
   )

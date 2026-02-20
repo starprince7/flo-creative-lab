@@ -11,7 +11,7 @@ const Community = () => {
         <div className="text-center">
           <TextAppearAnimation>
             <h2 className="text-appear mb-12 md:mb-20">
-              Growing <span className="font-instrument italic">together.</span> <br />
+              Growing <span className="font-instrument">together.</span> <br />
               As a community.
             </h2>
           </TextAppearAnimation>

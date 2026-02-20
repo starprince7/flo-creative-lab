@@ -24,7 +24,7 @@ const ServicesV8 = () => {
             <TextAppearAnimation>
               <h2 className="text-appear">
                 Elevating Your <br />
-                <span className="font-instrument italic">Digital</span> Presence
+                <span className="font-instrument">Digital</span> Presence
               </h2>
             </TextAppearAnimation>
           </div>

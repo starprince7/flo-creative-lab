@@ -46,7 +46,7 @@ const ProcessV2 = () => {
           <div className="flex-1 md:self-start">
             <TextAppearAnimation>
               <h2 className="text-appear">
-                <span className="font-instrument font-medium italic"> Services — </span>
+                <span className="font-instrument font-medium"> Services — </span>
                 <br className="hidden md:block" />
                 We build
               </h2>
@@ -82,7 +82,7 @@ const ProcessV2 = () => {
               <h4 className="pb-3 leading-[1.2] transition-colors duration-300 dark:group-hover:text-secondary md:mb-4 md:text-[37xp]">
                 {service.title}
               </h4>
-              <p className="text-[17px] italic leading-[25.5px] text-[#000000b3] transition-colors duration-300 dark:text-dark-100 dark:group-hover:text-dark-200">
+              <p className="text-[17px] leading-[25.5px] text-[#000000b3] transition-colors duration-300 dark:text-dark-100 dark:group-hover:text-dark-200">
                 {service.description}
               </p>
             </div>

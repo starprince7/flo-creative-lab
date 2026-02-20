@@ -21,7 +21,7 @@ const BlogPost = () => {
         <div className="mb-10 flex flex-col items-start justify-center gap-x-10 gap-y-4 md:mb-20 md:flex-row lg:items-center lg:justify-between">
           <TextAppearAnimation>
             <h2 className="text-appear flex-1">
-              <span className="font-instrument italic lg:text-[70px]">Insights</span>
+              <span className="font-instrument lg:text-[70px]">Insights</span>
               <br className="hidden lg:block" />
               &amp; Stories
             </h2>

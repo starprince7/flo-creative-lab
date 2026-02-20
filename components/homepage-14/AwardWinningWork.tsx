@@ -121,7 +121,7 @@ const AwardWinningWork = () => {
             <TextAppearAnimation02>
               <h2 className="text-appear-2">
                 Celebrating excellence in
-                <span className="font-instrument italic"> filmmaking </span>
+                <span className="font-instrument"> filmmaking </span>
               </h2>
             </TextAppearAnimation02>
           </div>
@@ -156,7 +156,7 @@ const AwardWinningWork = () => {
             key={item.id}
             className="row group flex min-h-[138px] cursor-pointer items-center justify-start border-b py-4"
             data-img={item.img}>
-            <div className="-mt-5 w-16 text-nowrap font-instrument text-lg italic leading-[22px]">{item.year}</div>
+            <div className="-mt-5 w-16 text-nowrap font-instrument text-lg leading-[22px]">{item.year}</div>
             <div className="ml-11 w-72 text-nowrap text-3xl md:w-96 md:text-4xl lg:w-80 lg:leading-[1.1] 2xl:w-[470px] 2xl:text-5xl">
               {item.title}
             </div>

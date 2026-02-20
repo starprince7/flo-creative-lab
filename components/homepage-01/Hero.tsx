@@ -12,13 +12,13 @@ const Hero = () => {
             <span className="rv-badge-text">Open for new work</span>
           </div>
           <h1 className="mb-7 xl:mb-8">
-            <i className="font-instrument italic">Cinematic brilliance</i>
+            <i className="font-instrument">Cinematic brilliance</i>
             <br />
             Mixed with
             <br />
             a creative
             <br />
-            <i className="font-instrument italic">flo</i>
+            <i className="font-instrument">flo</i>
           </h1>
           <p className="mx-auto mb-10 max-w-xl md:mb-14 lg:max-w-[750px] xl:mb-[76px]">
             Turn your vision into reality with FloCreativeLabs. We blend design, strategy, and technology to build

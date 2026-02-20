@@ -11,7 +11,7 @@ const HeroV11 = () => {
         <TextAppearAnimation>
           <h1 className="text-appear mb-3">
             Where creativity meets
-            <span className="font-instrument italic"> cinematic brilliance</span>
+            <span className="font-instrument"> cinematic brilliance</span>
           </h1>
         </TextAppearAnimation>
         <TextAppearAnimation>

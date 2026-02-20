@@ -28,7 +28,7 @@ const SwiperSlideContent: FC<SwiperSlideContentProps> = ({ tags, title, userName
         </span>
       </div>
       <div className="flex-1">
-        <p className="mb-6 text-base italic text-backgroundBody/70 md:mb-[30px] md:text-xl md:leading-[1.5]">{tags}</p>
+        <p className="mb-6 text-base text-backgroundBody/70 md:mb-[30px] md:text-xl md:leading-[1.5]">{tags}</p>
         <h3 className="mb-7 text-xl text-backgroundBody md:mb-10 md:text-[30px] md:leading-9">{title}</h3>
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">

@@ -22,7 +22,7 @@ const ProjectServicesV4 = () => {
             <TextAppearAnimation>
               <h2 className="text-appear mt-3 md:mt-4">
                 Proven strategies, <i className="font-instrument">Real</i>
-                <span className="font-instrument italic"> results</span>
+                <span className="font-instrument"> results</span>
               </h2>
             </TextAppearAnimation>
           </div>

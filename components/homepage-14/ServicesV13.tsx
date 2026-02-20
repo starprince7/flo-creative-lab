@@ -22,7 +22,7 @@ const ServicesV13 = () => {
             <TextAppearAnimation02>
               <h2>
                 Our <br />
-                <span className="font-instrument italic">Expertise</span>
+                <span className="font-instrument">Expertise</span>
               </h2>
             </TextAppearAnimation02>
           </div>

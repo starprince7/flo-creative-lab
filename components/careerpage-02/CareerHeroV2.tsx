@@ -16,7 +16,7 @@ const CareerHeroV2 = () => {
 
         <h1 className="mt-6 max-lg:text-center lg:mt-10">
           Shape the Future of Digital <br className="hidden md:block" />
-          Design as an <span className="font-instrument italic">Innovator</span> with Us
+          Design as an <span className="font-instrument">Innovator</span> with Us
         </h1>
       </RevealWrapper>
     </section>

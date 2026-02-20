@@ -11,7 +11,7 @@ const CtaV2 = () => {
         <RevealWrapper
           as="h2"
           className="reveal-me text-[46px] font-normal leading-[1.1] max-lg:leading-[1.33] lg:text-[96px] lg:tracking-[-2.88px]">
-          <span className="font-instrument italic max-md:mr-4 lg:text-[100px]">New</span>
+          <span className="font-instrument max-md:mr-4 lg:text-[100px]">New</span>
           <br className="hidden md:block" />
           Project?
         </RevealWrapper>

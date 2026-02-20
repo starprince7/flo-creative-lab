@@ -12,7 +12,7 @@ const SectionHeaderV3 = ({ headingTitle, italicTitle, description }: headingProp
       <div className="flex-1 self-start sm:self-center md:self-start">
         <TextAppearAnimation>
           <h2 className="text-appear lg:text-[60px] xl:text-[70px]">
-            <i className="font-instrument italic max-sm:pr-2">{italicTitle}</i> <br className="hidden md:block" />{' '}
+            <i className="font-instrument max-sm:pr-2">{italicTitle}</i> <br className="hidden md:block" />{' '}
             {headingTitle}
           </h2>
         </TextAppearAnimation>

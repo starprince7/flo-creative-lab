@@ -35,7 +35,7 @@ const HeroV3 = () => {
         />
       </div>
 
-      <h1 className="absolute right-4 top-56 font-instrument text-5xl font-normal italic leading-[1.1] sm:text-7xl md:top-60 md:text-8xl lg:right-36 lg:top-72 lg:text-9xl xl:right-60 xl:top-96 xl:text-[156px]">
+      <h1 className="absolute right-4 top-56 font-instrument text-5xl font-normal leading-[1.1] sm:text-7xl md:top-60 md:text-8xl lg:right-36 lg:top-72 lg:text-9xl xl:right-60 xl:top-96 xl:text-[156px]">
         Agency
       </h1>
       <h2 className="absolute left-[20%] mt-8 text-6xl leading-[1.1] sm:text-8xl md:text-[100px] lg:text-[140px] xl:text-[238px]">

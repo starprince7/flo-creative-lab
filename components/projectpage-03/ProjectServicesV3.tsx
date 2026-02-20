@@ -20,7 +20,7 @@ const ProjectServicesV3 = () => {
           <div>
             <TextAppearAnimation>
               <h2 className="text-appear text-[46px] font-normal leading-[1.1] md:text-7xl md:tracking-[-2.88px] xl:text-[96px]">
-                <span className="font-instrument italic">Proud</span>
+                <span className="font-instrument">Proud</span>
                 <br />
                 Case Studies
               </h2>

@@ -20,7 +20,7 @@ const BlogPostsV4 = () => {
           <div className="w-full flex-1">
             <TextAppearAnimation>
               <h2 className="text-appear">
-                <span className="font-instrument italic"> Latest</span> <br className="hidden lg:block" />
+                <span className="font-instrument"> Latest</span> <br className="hidden lg:block" />
                 blog & news
               </h2>
             </TextAppearAnimation>

@@ -10,7 +10,7 @@ const Testimonial = () => {
         <div className="mb-10 md:mb-20">
           <TextAppearAnimation>
             <h2 className="text-appear text-center">
-              Client <i className="font-instrument italic">testimonials</i>
+              Client <i className="font-instrument">testimonials</i>
             </h2>
           </TextAppearAnimation>
           <TextAppearAnimation>
@@ -35,7 +35,7 @@ const Testimonial = () => {
                   <p className="mt-[3.5px] text-base font-light leading-5">{role}</p>
                 </div>
               </div>
-              <p className="text-base italic md:text-[17px] md:leading-6 md:tracking-[0.9px]">{feedback}</p>
+              <p className="text-base md:text-[17px] md:leading-6 md:tracking-[0.9px]">{feedback}</p>
             </RevealWrapper>
           ))}
         </div>

@@ -23,7 +23,7 @@ const Portfolio = () => {
             <TextAppearAnimation>
               <h2 className="text-appear mt-3 md:mt-5">
                 Success Stories in
-                <span className="font-instrument italic"> Digital</span> Innovation
+                <span className="font-instrument"> Digital</span> Innovation
               </h2>
             </TextAppearAnimation>
           </div>

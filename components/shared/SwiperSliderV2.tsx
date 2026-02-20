@@ -75,7 +75,7 @@ const SwiperSliderV2 = () => {
                 </span>
               </div>
               <div className="flex-1">
-                <p className="mb-6 text-base italic text-secondary/70 dark:text-backgroundBody/70 md:mb-[30px] md:text-xl md:leading-[1.5]">
+                <p className="mb-6 text-base text-secondary/70 dark:text-backgroundBody/70 md:mb-[30px] md:text-xl md:leading-[1.5]">
                   {tags}
                 </p>
                 <h3 className="mb-7 text-xl text-secondary dark:text-backgroundBody md:mb-10 md:text-[30px] md:leading-9">

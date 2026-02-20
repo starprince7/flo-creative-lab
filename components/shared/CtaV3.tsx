@@ -16,7 +16,7 @@ const CtaV3 = () => {
               ]}
             />
             Create
-            <i className="mx-auto mt-3 block font-instrument italic max-md:inline-block max-sm:ml-3 sm:mt-10">
+            <i className="mx-auto mt-3 block font-instrument max-md:inline-block max-sm:ml-3 sm:mt-10">
               Something Iconic
             </i>
           </h2>

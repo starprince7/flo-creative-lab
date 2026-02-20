@@ -14,7 +14,7 @@ const CareerHero = () => {
             <span className="rv-badge-text">Career</span>
           </div>
           <h1 className="mb-5 mt-3.5 font-medium sm:mt-6 md:mb-8 md:mt-7">
-            Start building your <i className="font-instrument italic">future</i> here
+            Start building your <i className="font-instrument">future</i> here
           </h1>
           <p className="mx-auto max-w-md lg:max-w-[754px]">
             We provide a wide range of growth opportunities, a collaborative work culture, and a supportive team focused

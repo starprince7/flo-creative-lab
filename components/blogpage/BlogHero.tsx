@@ -14,7 +14,7 @@ const BlogHero = () => {
           <div className="max-sm:self-start">
             <TextAppearAnimation>
               <h1 className="text-appear text-[46px] font-normal leading-[1.1] max-lg:leading-[1.33] lg:text-7xl xl:text-[80px]">
-                <i className="font-instrument italic leading-[1.1]"> Insights </i>
+                <i className="font-instrument leading-[1.1]"> Insights </i>
                 <br className="hidden md:block" />
                 we share
               </h1>

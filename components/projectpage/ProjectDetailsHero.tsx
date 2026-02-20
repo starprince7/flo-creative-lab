@@ -24,7 +24,7 @@ const ProjectDetailsHero = ({ badgeTitle, title, description, italicTitle, scale
           )}
           {title && (
             <h1 className="mb-4 mt-3.5">
-              {title} <i className="font-instrument italic">{italicTitle}</i>
+              {title} <i className="font-instrument">{italicTitle}</i>
             </h1>
           )}
           {description && (

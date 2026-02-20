@@ -50,7 +50,7 @@ const ServicesCard: FC<ServicesCardProps> = ({ servicesData }) => {
             <h2 className="text-appear flex flex-col">
               <span>Elevating Your</span>
               <span>
-                <i className="font-instrument italic">Digital</i> Presence
+                <i className="font-instrument">Digital</i> Presence
               </span>
             </h2>
           </div>

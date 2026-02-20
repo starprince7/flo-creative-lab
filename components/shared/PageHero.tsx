@@ -24,7 +24,7 @@ const PageHero = ({ badgeTitle, title, description, italicTitle, spacing, scale 
           )}
           {title && (
             <h1 className="mb-4 mt-3.5">
-              {title} <i className="font-instrument italic">{italicTitle}</i>
+              {title} <i className="font-instrument">{italicTitle}</i>
             </h1>
           )}
           {description && <p className="text-appear mx-auto max-w-[470px] md:max-w-[750px]">{description}</p>}

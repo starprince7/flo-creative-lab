@@ -20,14 +20,14 @@ const SectionHeader = ({
       <TextAppearAnimation>
         {titleChange ? (
           <h2 className="text-appear block">
-            <span className="font-instrument italic">Frequently asked </span>
+            <span className="font-instrument">Frequently asked </span>
             questions
           </h2>
         ) : (
           <h2
             className={`text-appear flex-1 ${serviceHeadingColor ? 'text-backgroundBody dark:text-backgroundBody' : 'text-secondary dark:text-backgroundBody'}`}>
             <i
-              className={`font-instrument italic ${serviceHeadingColor ? 'text-backgroundBody dark:text-backgroundBody' : 'text-secondary dark:text-backgroundBody'} max-md:pr-2`}>
+              className={`font-instrument ${serviceHeadingColor ? 'text-backgroundBody dark:text-backgroundBody' : 'text-secondary dark:text-backgroundBody'} max-md:pr-2`}>
               {italicTitle}
             </i>
             <br className="hidden md:block" /> {headingTitle}
