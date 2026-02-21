@@ -6,6 +6,8 @@ import { ThemeModeProvider } from '@/utils/Providers'
 import type { Metadata } from 'next'
 import { ReactNode, Suspense } from 'react'
 import '../scss/main.scss'
+import LoadingScreen from '@/components/animation/LoadingScreen'
+import { WhatsAppFloatingWidget } from '@/components/widget/WhatsApp'
 
 export const metadata: Metadata = {
   title: 'FloCreativeLab | Home',
@@ -26,6 +28,8 @@ export default function RootLayout({
             <ThemeModeProvider>
               <ThemeSwitcher />
               <CursorPointer />
+              <LoadingScreen />
+              <WhatsAppFloatingWidget />
               {children}
             </ThemeModeProvider>
           </SmoothScrollProvider>
