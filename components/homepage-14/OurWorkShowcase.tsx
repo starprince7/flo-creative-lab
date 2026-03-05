@@ -81,6 +81,66 @@ const youtubeVideos: VideoType[] = [
     title: 'Alpha P, Olamide & Thisizlondon - W',
     url: 'https://www.youtube.com/embed/n4n--ZFdVWQ?si=S0r7EWvV55L5qAni',
   },
+  {
+    id: 'O7QM1VAUjzc',
+    title: 'Bugus - The Storm (Feat. Rhedi) (Official Video)',
+    url: 'https://www.youtube.com/embed/O7QM1VAUjzc',
+  },
+  {
+    id: 'ipSBSVZH3p4',
+    title: 'DJ OBI, Timaya - PATEK',
+    url: 'https://www.youtube.com/embed/ipSBSVZH3p4',
+  },
+  {
+    id: 'vEkU7VP43Bc',
+    title: 'BJ SHOW, SHODAY, WXZE MUSIC - FINEE (OFFICIAL VIDEO)',
+    url: 'https://www.youtube.com/embed/vEkU7VP43Bc',
+  },
+  {
+    id: 'Knw2NxvMnrk',
+    title: 'Outsyd DJ, Outsyd Eddie, Famous Pluto feat. Tega Boi - Feel D Mood (Official Video)',
+    url: 'https://www.youtube.com/embed/Knw2NxvMnrk',
+  },
+  {
+    id: 'goJpPyYa3x8',
+    title: 'Boii - Feel Alright (Official Video)',
+    url: 'https://www.youtube.com/embed/goJpPyYa3x8',
+  },
+  {
+    id: '6QV8kurs9aI',
+    title: 'The Therapist, Khalil Harrison - 4x4 (Official Video) ft. Tyler ICU, Magicsticks',
+    url: 'https://www.youtube.com/embed/6QV8kurs9aI',
+  },
+  {
+    id: 'Z96BlR9O_Jc',
+    title: 'Tha Boy Myles - Ogo Ni (Official Music Video)',
+    url: 'https://www.youtube.com/embed/Z96BlR9O_Jc',
+  },
+  {
+    id: 'jyunhV5_MP8',
+    title: 'Logos Olori - YAWA (Official Music Video)',
+    url: 'https://www.youtube.com/embed/jyunhV5_MP8',
+  },
+  {
+    id: 'g6alltPmtes',
+    title: 'DwillsHarmony - Evil World (Official Video) ft. Balloranking',
+    url: 'https://www.youtube.com/embed/g6alltPmtes',
+  },
+  {
+    id: '_raYhuRRItw',
+    title: 'Joanny - Mmiri ft Ugoccie (Official Video)',
+    url: 'https://www.youtube.com/embed/_raYhuRRItw',
+  },
+  {
+    id: 'myanlfKdcU0',
+    title: 'Doncarta - Biza (Official Video)',
+    url: 'https://www.youtube.com/embed/myanlfKdcU0',
+  },
+  {
+    id: '84r56AW92lA',
+    title: 'Rexxie, Axad and Bad Boy Timz - One Or Two (Remix)',
+    url: 'https://www.youtube.com/embed/84r56AW92lA',
+  },
 ]
 
 const commercialVideos: VideoType[] = [

@@ -23,12 +23,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${poppins.variable} antialiased`}>
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense fallback={<LoadingScreen />}>
           <SmoothScrollProvider>
             <ThemeModeProvider>
               <ThemeSwitcher />
               <CursorPointer />
-              <LoadingScreen />
               <WhatsAppFloatingWidget />
               {children}
             </ThemeModeProvider>
