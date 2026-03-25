@@ -4,32 +4,7 @@ import RevealWrapper from '../animation/RevealWrapper'
 const HeroV14 = () => {
   return (
     <section className="relative h-[80vh] w-screen overflow-hidden lg:h-screen">
-      <video
-        className="absolute left-0 top-0 z-[-1] h-full w-full object-cover"
-        poster="https://res.cloudinary.com/starprince-dev/image/upload/v1769757346/flo-creative-lab/poster-qing-madi-vision_xktypi.jpg"
-        preload="metadata"
-        autoPlay
-        loop
-        muted>
-        <source
-          src="https://res.cloudinary.com/starprince-dev/video/upload/w_1920,h_1080,c_fill,q_50,f_auto,vc_auto/v1769755747/flo-creative-lab/vision-snippet-qingmadi-n-chole_o0tnef.mp4"
-          type="video/mp4"
-        />
-        <track src="subtitles/lawyer-hero-video-en.vtt" kind="subtitles" srcLang="en" label="English" />
-        <track
-          src="subtitles/lawyer-hero-video-captions-en.vtt"
-          kind="captions"
-          srcLang="en"
-          label="English Captions"
-        />
-        <track
-          src="descriptions/lawyer-hero-video-desc.vtt"
-          kind="descriptions"
-          srcLang="en"
-          label="English Descriptions"
-        />
-        Your browser does not support the video tag.
-      </video>
+      <img src="/images/hero-flo-portfolio.jpeg" alt="hero" className="w-full blur-sm" />
       <RevealWrapper className="container absolute left-1/3 top-2/3 -translate-x-1/3 -translate-y-2/3 lg:top-1/2 lg:-translate-y-1/2">
         <h1 className="mb-3 text-backgroundBody max-md:leading-none">
           Shaping <br className="hidden md:block" />

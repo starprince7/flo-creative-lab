@@ -52,7 +52,7 @@ export const HorizontalMenu = () => {
             onMouseLeave={() => setActiveDropdown(null)}>
             <Link
               href={item.url}
-              className={`text-sm font-normal transition-colors duration-200 xl:text-base ${isLinkActive(item.url) ? 'text-white' : 'text-white/70 hover:text-white'}`}>
+              className={`text-sm font-normal transition-colors duration-200 xl:text-base ${isLinkActive(item.url) ? 'text-secondary dark:text-white' : 'text-secondary/70 hover:text-secondary dark:text-white/70 dark:hover:text-white'}`}>
               {item.title}
             </Link>
 
@@ -63,7 +63,7 @@ export const HorizontalMenu = () => {
                   <li key={subItem.title}>
                     <Link
                       href={subItem.url}
-                      className={`block px-4 py-2 text-sm transition-colors duration-200 ${isLinkActive(subItem.url) ? 'bg-white/10 text-white' : 'text-white/70 hover:bg-white/5 hover:text-white'}`}>
+                      className={`block px-4 py-2 text-sm transition-colors duration-200 ${isLinkActive(subItem.url) ? 'bg-white/10 text-secondary dark:text-white' : 'text-secondary/70 hover:bg-white/5 hover:text-secondary dark:text-white/70 dark:hover:text-white'}`}>
                       {subItem.title}
                     </Link>
                   </li>
