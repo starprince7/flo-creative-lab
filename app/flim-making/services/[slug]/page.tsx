@@ -1,11 +1,13 @@
 import WhyChooseUsV6 from '@/components/homepage-17/WhyChooseUsV6'
 import ServiceContent from '@/components/services-page/ServiceContent'
 import ServicesHero from '@/components/services-page/ServicesHero'
+import VideoShowcaseGrid from '@/components/services-page/VideoShowcaseGrid'
 import CTA from '@/components/shared/CTA'
 import CtaImageSlider from '@/components/shared/CtaImageSlider'
 import FaqV2 from '@/components/shared/FaqV2'
 import LayoutOne from '@/components/shared/LayoutOne'
 import { ServicesType } from '@/components/shared/ServicesV8'
+import { youtubeVideos, commercialVideos } from '@/data/videos'
 import getMarkDownContent from '@/utils/GetMarkDownContent'
 import getMarkDownData from '@/utils/GetMarkDownData'
 
@@ -30,6 +32,20 @@ const ServiceDetails = async ({ params }: { params: Promise<{ slug: string }> })
     <LayoutOne>
       <ServicesHero title={postServices?.title} description={postServices?.description} scale />
       <ServiceContent service={plainService} />
+      {slug === 'music-videos' && (
+        <section className="pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px]">
+          <div className="container">
+            <VideoShowcaseGrid videos={youtubeVideos} />
+          </div>
+        </section>
+      )}
+      {slug === 'commercials' && (
+        <section className="pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px]">
+          <div className="container">
+            <VideoShowcaseGrid videos={commercialVideos} columns="two" />
+          </div>
+        </section>
+      )}
       <WhyChooseUsV6 />
       <FaqV2 titleChange />
     </LayoutOne>

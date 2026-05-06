@@ -2,39 +2,9 @@
 import LayoutTwo from '@/components/shared/LayoutTwo'
 import CTA from '@/components/shared/CTA'
 import CtaImageSlider from '@/components/shared/CtaImageSlider'
-import RevealWrapper from '@/components/animation/RevealWrapper'
 import TextAppearAnimation from '@/components/animation/TextAppearAnimation'
-
-interface VideoType {
-  id: string
-  title: string
-  url: string
-}
-
-const commercialVideos: VideoType[] = [
-  {
-    id: 'rCEtEpiw2UQ',
-    title: '',
-    url: 'https://www.youtube.com/embed/rCEtEpiw2UQ',
-  },
-  {
-    id: 'P9lsj69BL5Q',
-    title: '',
-    url: 'https://www.youtube.com/embed/P9lsj69BL5Q',
-  },
-  {
-    id: 'Nj4bR3sbe_w',
-    title: '',
-    url: 'https://www.youtube.com/embed/Nj4bR3sbe_w',
-  },
-  {
-    id: 'vFoqwUsexk0',
-    title: '',
-    url: 'https://www.youtube.com/embed/vFoqwUsexk0',
-  },
-]
-
-
+import VideoShowcaseGrid from '@/components/services-page/VideoShowcaseGrid'
+import { commercialVideos } from '@/data/videos'
 
 const CommercialsPage = () => {
   return (
@@ -42,7 +12,6 @@ const CommercialsPage = () => {
       <section className="pb-14 pt-28 sm:pt-32 md:pb-16 md:pt-16 lg:pb-[88px] lg:pt-[88px] xl:pb-[100px] xl:pt-[100px]">
         <div className="container">
           <div className="mb-8 text-center md:mb-16">
-            
             <TextAppearAnimation>
               <h1 className="text-appear mb-3">
                 Commercials
@@ -50,32 +19,11 @@ const CommercialsPage = () => {
               </h1>
             </TextAppearAnimation>
             <TextAppearAnimation>
-              <p className="text-appear">
-                Brand stories that captivate and drive results
-              </p>
+              <p className="text-appear">Brand stories that captivate and drive results</p>
             </TextAppearAnimation>
           </div>
 
-          <div className="grid grid-cols-1 gap-[30px] md:grid-cols-2 lg:grid-cols-3">
-            {commercialVideos.map((video) => (
-              <RevealWrapper key={video.id} className="group border px-3.5 pb-7 pt-3.5 dark:border-dark md:px-5 md:pt-5">
-                <div className="aspect-video w-full overflow-hidden">
-                  <iframe
-                    src={video.url}
-                    title={video.title}
-                    className="h-full w-full"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  />
-                </div>
-                <div className="mt-5">
-                  <h3 className="text-xl font-normal leading-tight text-secondary dark:text-white lg:text-2xl">
-                    {video.title}
-                  </h3>
-                </div>
-              </RevealWrapper>
-            ))}
-          </div>
+          <VideoShowcaseGrid videos={commercialVideos} columns="two" />
         </div>
       </section>
 

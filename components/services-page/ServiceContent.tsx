@@ -44,7 +44,6 @@ const ServiceContent = ({ service }: any) => {
     <section className="pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px]">
       <div className="mx-auto max-w-[1440px] px-8 md:px-20">
         <div className="flex flex-col justify-start gap-8 lg:flex-row">
-
           <article className="project-details-body">
             <RevealWrapper as="figure" className="relative h-[497px] w-full">
               {isVideo ? (
@@ -135,6 +134,9 @@ const ServiceContent = ({ service }: any) => {
               )}
             </RevealWrapper>
 
+            <div className="prose dark:prose-invert mt-10 max-w-none">
+              <ReactMarkdown rehypePlugins={[rehypeSlug]}>{service.content}</ReactMarkdown>
+            </div>
           </article>
         </div>
       </div>
