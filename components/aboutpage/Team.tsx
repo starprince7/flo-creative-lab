@@ -44,7 +44,7 @@ const Team = () => {
         {/* Main profile card */}
         <div
           className={`our-team-details flex flex-col gap-10 gap-x-[30px] border bg-backgroundBody p-5 dark:border-dark dark:bg-dark max-md:items-center max-md:justify-center lg:flex-row lg:p-10 ${isTransitioning ? 'transitioning' : ''}`}>
-          <figure className="max-lg:w-full lg:min-h-[372px] lg:min-w-[330px]">
+          {/* <figure className="max-lg:w-full lg:min-h-[372px] lg:min-w-[330px]">
             <Image
               src={selectedMember?.image}
               width={330}
@@ -52,7 +52,7 @@ const Team = () => {
               alt={selectedMember.name}
               className="w-full object-cover"
             />
-          </figure>
+          </figure> */}
 
           <div className="flex-1">
             <div className="mb-5 flex flex-col justify-between gap-y-10 md:flex-row lg:mb-10">

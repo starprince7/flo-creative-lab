@@ -26,7 +26,7 @@ export default function RootLayout({
         <Suspense fallback={<LoadingScreen />}>
           <SmoothScrollProvider>
             <ThemeModeProvider>
-              <ThemeSwitcher />
+              {/* <ThemeSwitcher /> */}
               <CursorPointer />
               <WhatsAppFloatingWidget />
               {children}
